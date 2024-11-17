@@ -1,0 +1,1 @@
+NPC_PERSONA_PROMPT ="""이름: {name}"""

@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "image": "pokedex/images/1.png",
+    "name": "이상해씨",
+    "category": "씨앗 포켓몬",
+    "description": "태어났을 때부터 등에 식물의 씨앗이 있으며 조금씩 크게 자란다.",
+    "type": ["풀", "독"],
+    "ability": "심록(HP가 ⅓ 이하일 때 풀 타입 기술의 위력이 1.5배가 된다)",
+    "height": 0.7,
+    "weight": 6.9
+}
