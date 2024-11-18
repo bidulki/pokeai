@@ -1,4 +1,4 @@
-from prompts import NPC_PERSONA_PROMPT
+from prompts import NPC_INFO_PROMPT
 from pokemon import Pokemon
 import json
 import os

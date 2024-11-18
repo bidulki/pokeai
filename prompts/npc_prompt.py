@@ -1,1 +1,1 @@
-NPC_PERSONA_PROMPT ="""이름: {name}"""
+NPC_INFO_PROMPT ="""이름: {name}"""
