@@ -4,6 +4,7 @@ import os
 
 class Pokemon:
     def __init__(self, poke_info):
+        self.id = poke_info.id
         self.dexNum = poke_info.dexNum
         self.hp = poke_info.hp
         self.status = poke_info.status
