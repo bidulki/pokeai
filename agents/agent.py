@@ -1,6 +1,6 @@
 from openai import OpenAI
 from config import get_settings
-from entity import User, UserAction
+from entity import User, UserAction, Location
 
 class Agent:
     def __init__(self, conversation):
@@ -8,21 +8,9 @@ class Agent:
         self.model = settings.gpt_version
         self.client = OpenAI(api_key=settings.openai_api_key)
         self.chat_history = conversation.chatHistory
-        self.location = conversation.locationId
+        self.location = Location(conversation.locationId)
         self.user = User(conversation.userInfo)
         self.user_action = UserAction(conversation.userAction)
-    
-    def load_user_info(self, user_info):
-        self.user_name = user_info.name
-        self.user
-
-    def update_vectorDB(self):
-        # 대화 종료시 chatHistory를 벡터 DB에 업로드
-        pass
-
-    def search_vectorDB(self):
-        # 정보를 벡터 DB에서 검색
-        pass
 
     def make_message(self, role, content):
         message = {"role": role, "content": content}
@@ -31,6 +19,7 @@ class Agent:
     def make_total_messages(self, system_prompt, messages):
         system_message = self.make_message("system", system_prompt)
         new_messages = [system_message]
+
         for message in messages:
             new_messages.append(message)
         return new_messages
