@@ -1,2 +1,3 @@
-from .npc_prompt import NPC_PERSONA_PROMPT
-from .poke_prompt import POKEMON_INFO_PROMPT
+from .npc_prompt import *
+from .poke_prompt import *
+from .item_prompt import *

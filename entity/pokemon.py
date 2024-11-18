@@ -19,7 +19,6 @@ class Pokemon:
         self.category = pokedex_json['category']
         self.description = pokedex_json['description']
         self.types = ", ".join(pokedex_json['type'])
-        self.ability = pokedex_json['ability']
         self.height = pokedex_json['height']
         self.weight = pokedex_json['weight']
 
@@ -28,7 +27,8 @@ class Pokemon:
             category=self.category,
             description=self.description,
             types=self.types,
-            ability=self.ability,
             height=self.height,
-            weight=self.weight
+            weight=self.weight,
+            hp = self.hp,
+            status = self.status
         )
