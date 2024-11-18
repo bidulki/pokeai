@@ -7,3 +7,5 @@ POKEMON_INFO_PROMPT = """이름: {name}
 체력: {hp}%
 상태: {status}
 """
+
+POKE_CHAT_PROMPT = """"""

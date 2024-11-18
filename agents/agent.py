@@ -16,14 +16,24 @@ class Agent:
         self.user_name = user_info.name
         self.user
 
+    def update_vectorDB(self):
+        # 대화 종료시 chatHistory를 벡터 DB에 업로드
+        pass
+
+    def search_vectorDB(self):
+        # 정보를 벡터 DB에서 검색
+        pass
+
     def make_message(self, role, content):
         message = {"role": role, "content": content}
         return message
     
-    def add_messages(self, messages, new_messages):
-        for message in new_messages:
-            messages.append(message)
-        return messages
+    def make_total_messages(self, system_prompt, messages):
+        system_message = self.make_message("system", system_prompt)
+        new_messages = [system_message]
+        for message in messages:
+            new_messages.append(message)
+        return new_messages
 
     def user_action_message(self, name):
         action_type =  self.user_action.action
