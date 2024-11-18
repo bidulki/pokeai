@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "image": "pokedex/images/2.png",
+  "name": "이상해풀",
+  "category": "씨앗 포켓몬",
+  "description": "꽃봉오리가 등에 붙어 있으며 양분을 흡수해가면 커다란 꽃이 핀다고 한다.",
+  "type": ["풀", "독"],
+  "ability": "심록(HP가 ⅓ 이하일 때 풀 타입 기술의 위력이 1.5배가 된다)",
+  "height": 1.0,
+  "weight": 13.0
+}

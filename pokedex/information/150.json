@@ -1,0 +1,11 @@
+{
+  "id": 150,
+  "image": "pokedex/images/39.png",
+  "name": "뮤츠",
+  "category": "유전자 포켓몬",
+  "description": "연구를 위해 유전자를 점점 조합한 결과, 난폭한 포켓몬이 되어 버렸다.",
+  "type": ["에스퍼"],
+  "ability": "프레셔(자신에게 기술을 쓴 포켓몬의 기술 PP가 1씩 더 소모된다.)",
+  "height": 2.0,
+  "weight": 122.0
+}

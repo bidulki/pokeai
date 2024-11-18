@@ -1,0 +1,11 @@
+{
+  "id": 10,
+  "image": "pokedex/images/10.png",
+  "name": "캐터피",
+  "category": "잎벌레 포켓몬",
+  "description": "녹색 피부로 덮여 있다. 탈피해서 성장하면 실을 둘러서 번데기로 변한다.",
+  "type": ["벌레"],
+  "ability": "인분(공격 기술의 추가효과를 무시한다.)",
+  "height": 0.3,
+  "weight": 2.9
+}

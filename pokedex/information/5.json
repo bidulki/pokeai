@@ -1,0 +1,11 @@
+{
+  "id": 5,
+  "image": "pokedex/images/5.png",
+  "name": "리자드",
+  "category": "화염 포켓몬",
+  "description": "꼬리를 휘둘러 상대를 쓰러트리고 날카로운 발톱으로 갈기갈기 찢어버린다.",
+  "type": ["불꽃"],
+  "ability": "맹화(HP가 ⅓ 이하일 때 불꽃 타입 기술의 위력이 1.5배가 된다.)",
+  "height": 1.1,
+  "weight": 19.0
+}

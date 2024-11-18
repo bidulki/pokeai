@@ -1,0 +1,11 @@
+{
+  "id": 150,
+  "image": "pokedex/images/150.png",
+  "name": "뮤",
+  "category": "신종 포켓몬",
+  "description": "남아메리카에 서식하고 있는 전멸되었었을 포켓몬. 지능이 높아 어떤 것이라도 습득한다.",
+  "type": ["싱크로"],
+  "ability": "독, 마비, 화상에 걸렸을 때 상대도 걸리게 한다.",
+  "height": 0.4,
+  "weight": 4.0
+}

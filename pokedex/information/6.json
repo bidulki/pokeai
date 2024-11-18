@@ -1,0 +1,11 @@
+{
+  "id": 6,
+  "image": "pokedex/images/6.png",
+  "name": "리자몽",
+  "category": "화염 포켓몬",
+  "description": "지상 1400m까지 날개를 사용해 날 수 있다. 고열의 불꽃을 내뿜는다.",
+  "type": ["불꽃"],
+  "ability": "맹화(HP가 ⅓ 이하일 때 불꽃 타입 기술의 위력이 1.5배가 된다.)",
+  "height": 1.7,
+  "weight": 90.5
+}

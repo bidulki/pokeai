@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "image": "pokedex/images/9.png",
+  "name": "거북왕",
+  "category": "껍질 포켓몬",
+  "description": "무거운 몸으로 상대를 덮쳐서 기절시킨다. 위기에 처하면 등껍질에 숨는다.",
+  "type": ["물"],
+  "ability": "급류(남은 HP가 ⅓ 이하일 때 물 타입 기술의 위력이 1.5배로 증가한다.)",
+  "height": 1.6,
+  "weight": 85.5
+}

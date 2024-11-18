@@ -1,0 +1,11 @@
+{
+  "id": 25,
+  "image": "pokedex/images/25.png",
+  "name": "피카츄",
+  "category": "쥐 포켓몬",
+  "description": "뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.",
+  "type": ["전기"],
+  "ability": "정전기(접촉한 상대를 30% 확률로 마비시킨다.)",
+  "height": 0.4,
+  "weight": 6.0
+}

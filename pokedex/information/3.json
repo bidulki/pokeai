@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "image": "pokedex/images/3.png",
+  "name": "이상해꽃",
+  "category": "씨앗 포켓몬",
+  "description": "꽃에서 황홀한 향기가 퍼져 나와 싸우는 자의 기분을 달래준다.",
+  "type": ["풀", "독"],
+  "ability": "심록(HP가 ⅓ 이하일 때 풀 타입 기술의 위력이 1.5배가 된다)",
+  "height": 2.0,
+  "weight": 100.0
+}

@@ -1,0 +1,11 @@
+{
+  "id": 19,
+  "image": "pokedex/images/19.png",
+  "name": "꼬렛",
+  "category": "잎벌레 포켓몬",
+  "description": "송곳니는 길고 날카롭다. 평생 계속 뻗어나가서 단단한 것을 깎는다.",
+  "type": ["노말"],
+  "ability": "도주(야생 포켓몬과의 배틀에서 반드시 도망칠 수 있다.)",
+  "height": 0.3,
+  "weight": 3.5
+}

@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "image": "pokedex/images/4.png",
+  "name": "파이리",
+  "category": "도롱뇽 포켓몬",
+  "description": "태어날 때부터 꼬리의 불꽃이 타오르고 있다. 불꽃이 꺼지면 그 생명이 다하고 만다.",
+  "type": ["불꽃"],
+  "ability": "맹화(HP가 ⅓ 이하일 때 불꽃 타입 기술의 위력이 1.5배가 된다.)",
+  "height": 0.6,
+  "weight": 8.5
+}
