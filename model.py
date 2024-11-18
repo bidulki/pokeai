@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Literal, List
+from typing import Literal, List, Optional
 
 # 포켓몬 정보
 class PokeInfo(BaseModel):
@@ -26,9 +26,9 @@ class QuestInfo(BaseModel):
 # 사용자 행동
 class UserAction(BaseModel):
     action: Literal["chat", "battle", "give", "exchange", "catch", "quit"]
-    chat: str # 사용자 chat
-    itemId: int # 건네줄 물건 id
-    pokemon: PokeInfo # 교환할 포켓몬
+    chat: Optional[str] = None # 사용자 chat
+    itemId: Optional[int] = None # 건네줄 물건 id
+    pokemon: Optional[PokeInfo] = None # 교환할 포켓몬
 
 # NPC 정보
 class NpcInfo(BaseModel):
