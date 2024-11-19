@@ -1,4 +1,3 @@
-from openai import OpenAI
 from pydantic import BaseModel
 from entity import Pokemon
 from agent import Agent
