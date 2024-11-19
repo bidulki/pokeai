@@ -4,9 +4,10 @@ from prompts import ITEM_INFO_PROMPT
 
 class Item:
     def __init__(self, itemId):
+        self.id = itemId
         self.load_item_info(itemId)
 
-    def load_item_json(self, itemId):
+    def load_item_info(self, itemId):
         item_path = os.path.join("./items", f"{itemId}.json")
         with open(item_path, 'r') as f:
             item_json = json.load(f)

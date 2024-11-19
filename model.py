@@ -26,7 +26,7 @@ class QuestInfo(BaseModel):
 
 # 사용자 행동
 class UserAction(BaseModel):
-    action: Literal["chat", "battle", "give", "exchange", "catch", "quit"]
+    action: Literal["chat", "battle", "give", "catch", "quit"]
     chat: Optional[str] = None # 사용자 chat
     itemId: Optional[int] = None # 건네줄 물건 id
     pokemon: Optional[PokeInfo] = None # 교환할 포켓몬
