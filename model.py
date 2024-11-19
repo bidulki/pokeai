@@ -12,7 +12,7 @@ class PokeInfo(BaseModel):
 class UserInfo(BaseModel):
     name: str # 이름
     sex: Literal["male", "female"] # 성별
-    firstPoke: PokeInfo # 선두 포켓몬
+    firstPoke: Optional[PokeInfo] = None # 선두 포켓몬
 
 # 아이템 정보
 class ItemInfo(BaseModel):
@@ -34,7 +34,7 @@ class UserAction(BaseModel):
 # NPC 정보
 class NpcInfo(BaseModel):
     id: int # NPC id
-    pokeList: List[PokeInfo] # 소지 포켓몬
+    pokeList: Optional[List[PokeInfo]] = None # 소지 포켓몬
 
 # 대화 정보
 class Conversation(BaseModel):
