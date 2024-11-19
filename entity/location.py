@@ -3,6 +3,7 @@ import os
 
 class Location:
     def __init__(self, location_id):
+        self.id = location_id
         self.load_location_info(location_id)
     
     def load_location_info(self, location_id):

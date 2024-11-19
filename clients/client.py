@@ -58,10 +58,10 @@ class Client:
             self.item_list.append(item)
     
     def send_request(self, api, param):
+        headers = {"Content-Type": "application/json"}
         url = os.path.join(self.url, api)
-        response = requests.post(url, json=param)
-        res = response.json()
-        return res
+        response = requests.post(url, json=param.dict(), headers=headers)
+        return response
 
     def choose_action(self, name):
         print("어떤 행동을 하겠습니까?")
@@ -114,13 +114,19 @@ class Client:
                 userAction=user_action,
                 locationId=self.location.id
             )
-            if isinstance(entity, PokeInfo):
-                param = PokeChat(pokeInfo=entity, conversation=conversation)
-                response = self.send_request("chat/poke", param)
-            elif isinstance(entity, UserInfo):
-                param = NpcChat(pokeInfo=entity, conversation=conversation)
-                response = self.send_request("chat/npc", param)
-            print(f"{entity.name}: {response.chat}")
+            if isinstance(entity, Pokemon):
+                poke_info=dict(entity.poke_info)
+                param = PokeChat(pokeInfo=poke_info, conversation=conversation)
+                response = self.send_request("api/chat/poke", param)
+                response = response.json()
+                narration = response.get("narration")
+            elif isinstance(entity, NPC):
+                npc_info=dict(entity.npc_info)
+                param = NpcChat(NpcInfo=npc_info, conversation=conversation)
+                response = self.send_request("api/chat/npc", param)
+                response = response.json()
+                narration = response.get("chat")
+            print(f"{narration}")
             print("-----------------------------------------------------------------------")
             self.talk_with_entity(entity, chatHistory)
         elif user_action.action == "battle":

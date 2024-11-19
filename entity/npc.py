@@ -5,6 +5,7 @@ import os
 
 class NPC:
     def __init__(self, npc_info):
+        self.npc_info = npc_info
         self.load_npc_info(npc_info.id)
         self.load_pokemon(npc_info.pokeList)
 

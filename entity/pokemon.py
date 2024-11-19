@@ -8,6 +8,7 @@ class Pokemon:
         self.dexNum = poke_info.dexNum
         self.hp = poke_info.hp
         self.status = poke_info.status
+        self.poke_info = poke_info
         self.load_pokedex()
 
     def load_pokedex(self):

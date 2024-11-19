@@ -14,11 +14,6 @@ class UserInfo(BaseModel):
     sex: Literal["male", "female"] # 성별
     firstPoke: Optional[PokeInfo] = None # 선두 포켓몬
 
-# 아이템 정보
-class ItemInfo(BaseModel):
-    id: int # 아이템 id
-    num: int # 갯수
-
 # 퀘스트 정보
 class QuestInfo(BaseModel):
     info: str # 정보

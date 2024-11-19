@@ -1,7 +1,9 @@
+import sys
+sys.path.append("/home/bidulki/develop/pokeai")
 from fastapi import FastAPI
 from config import get_settings
 from model import NpcChat, PokeChat
-from agents import NpcAgent, PokeAgent
+from agents import NPCAgent, PokeAgent
 
 app = FastAPI()
 
@@ -12,7 +14,7 @@ async def index():
 
 @app.post("/api/chat/npc")
 async def npc_conversation(npc_chat: NpcChat):
-    npc_chat_agent = NpcAgent(npc_chat)
+    npc_chat_agent = NPCAgent(npc_chat)
     response = npc_chat_agent()
     return response
 
