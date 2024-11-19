@@ -56,46 +56,83 @@ class Client:
         res = response.json()
         return res
 
-    def choose_action(self):
+    def choose_action(self, name):
         print("어떤 행동을 하겠습니까?")
         print("1. 대화한다 2. 배틀한다 3. 건네준다 4. 포획한다 5. 그만둔다")
 
         action_dict = {
-            "1": "chat",
-            "2": "battle",
-            "3": "give",
-            "4": "catch",
-            "5": "quit"
+            1: "chat",
+            2: "battle",
+            3: "give",
+            4: "catch",
+            5: "quit"
         }
-        
-        action_num = int[input("번호 입력: ")]
+
+        action_num = int(input("번호 입력: "))
         action = action_dict[action_num]
         if action=="chat":
             chat = input(f"{self.user.name}: ")
             user_action = UserAction(action=action, chat=chat)
+            print("-----------------------------------------------------------------------")
         elif action=="give":
             if len(self.items) == 0:
                 print("건네줄 물건이 없다!")
-                return self.choose_action()
-            print("어떤 물건을 건네줄 것인가?")
+                print("-----------------------------------------------------------------------")
+                return self.choose_action(name)
+            print(f"{name}에게 어떤 물건을 건네줄 것인가?")
             for i, item in enumerate(self.items):
                 print(f"{i}: {item.name}")
 
             itemId = 1
             user_action = UserAction(action=action, itemId=itemId)
         elif action=="catch":
-            print("몬스터볼을 던졌다.")
+            print(f"{name}에게 몬스터볼을 던졌다.")
             user_action = UserAction(action=action)
-        else:
+        elif action=="quit":
+            print(f"{name}과의 대화를 종료했다.")
             user_action = UserAction(action=action)
         
         return user_action
 
     def talk_with_pokemon(self, pokemon):
-        user_action = self.choose_action()
+        user_action = self.choose_action(pokemon.name)
+
+        if user_action.action == "chat":
+            print("이상해씨: 이상이상")
+            print("-----------------------------------------------------------------------")
+            self.choose_action(pokemon.name)
+        elif user_action.action == "battle":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(pokemon.name)
+        elif user_action.action == "give":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(pokemon.name)
+        elif user_action.action == "catch":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(pokemon.name)
+        else:
+            print("-----------------------------------------------------------------------")
+            self.select_to_talk()
 
     def talk_with_npc(self, npc):
-        user_action = self.choose_action()
+        user_action = self.choose_action(npc.name)
+
+        if user_action.action == "chat":
+            print("오박사: ㅎㅎ")
+            print("-----------------------------------------------------------------------")
+            self.choose_action(npc.name)
+        elif user_action.action == "battle":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(npc.name)
+        elif user_action.action == "give":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(npc.name)
+        elif user_action.action == "catch":
+            print("-----------------------------------------------------------------------")
+            self.choose_action(npc.name)
+        else:
+            print("-----------------------------------------------------------------------")
+            self.select_to_talk()
 
     def select_to_talk(self):
         print("누구와 대화하겠습니까?")
@@ -111,7 +148,11 @@ class Client:
             select_dict[i] = pokemon
             i+=1
         
+        print(f"{i}: 게임을 종료한다.")
+        
         select_num = int(input("번호 입력: "))
+        if select_num >= len(select_dict.keys()):
+            return
         select = select_dict[select_num]
 
         print("-----------------------------------------------------------------------")
