@@ -34,7 +34,7 @@ class UserAction(BaseModel):
 # NPC 정보
 class NpcInfo(BaseModel):
     id: int # NPC id
-    pokeList: Optional[List[PokeInfo]] = None # 소지 포켓몬
+    pokeList: List[PokeInfo] # 소지 포켓몬
 
 # 대화 정보
 class Conversation(BaseModel):

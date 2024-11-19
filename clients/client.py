@@ -1,11 +1,14 @@
-from entity import NPC, Pokemon
+import sys
+sys.path.append("/home/bidulki/develop/pokeai")
+from entity import NPC, Pokemon, Location
 from model import *
 import requests
 import os
 
 class Client:
     def __init__(self):
-        self.user = UserInfo(name="레드", sex="male", firstPoke=None)
+        self.user = UserInfo(name="레드", sex="male")
+        self.location = Location(1)
         self.user_pokemon_list = []
         self.items = []
         self.url = "http://127.0.0.1:8000"
@@ -30,24 +33,20 @@ class Client:
                 "status": "NOR"
             }
         ]
-        self.load_npc
+        self.load_npc()
+        self.load_pokemon()
     
     def load_npc(self):
         self.NPC_list = []
         for npc_id in self.NPC_id_list:
-            npc_info = NpcInfo(npc_id=npc_id, pokeList= [])
+            npc_info = NpcInfo(id=npc_id, pokeList=[])
             npc = NPC(npc_info)
             self.NPC_list.append(npc)
     
     def load_pokemon(self):
         self.Pokemon_list = []
         for poke in self.Pokemon_id_list:
-            poke_info = PokeInfo(
-                id=poke['id'],
-                dexNum=poke['dexNum'],
-                hp=poke['hp'],
-                status=poke['status']
-            )
+            poke_info = PokeInfo(**poke)
             pokemon = Pokemon(poke_info)
             self.Pokemon_list.append(pokemon)
     
@@ -68,29 +67,35 @@ class Client:
             "4": "catch",
             "5": "quit"
         }
-        for key in action_dict.keys():
-            print(f"{key}. {action_dict[key]}", end=" ")
-        print()
+        
         action_num = int[input("번호 입력: ")]
         action = action_dict[action_num]
         if action=="chat":
             chat = input(f"{self.user.name}: ")
             user_action = UserAction(action=action, chat=chat)
         elif action=="give":
+            if len(self.items) == 0:
+                print("건네줄 물건이 없다!")
+                return self.choose_action()
             print("어떤 물건을 건네줄 것인가?")
-            #아이템 고르기 구현
+            for i, item in enumerate(self.items):
+                print(f"{i}: {item.name}")
+
             itemId = 1
             user_action = UserAction(action=action, itemId=itemId)
         elif action=="catch":
             print("몬스터볼을 던졌다.")
+            user_action = UserAction(action=action)
+        else:
+            user_action = UserAction(action=action)
         
         return user_action
 
     def talk_with_pokemon(self, pokemon):
-        action = self.choose_action()
+        user_action = self.choose_action()
 
     def talk_with_npc(self, npc):
-        pass
+        user_action = self.choose_action()
 
     def select_to_talk(self):
         print("누구와 대화하겠습니까?")
@@ -118,11 +123,11 @@ class Client:
             self.talk_with_pokemon(select)
 
     def start(self):
-        user_name = "레드"
-        sex = "male"
-        location_id = 1
-
-        print(f"현재위치: 오박사 연구소")
-        print(f"당신의 이름은 {user_name}, 오박사에게 포켓몬을 받으러 오박사 연구소에 왔다.")
+        print(f"현재위치: {self.location.name}")
+        print(f"당신의 이름은 {self.user.name}, 오박사에게 포켓몬을 받으러 오박사 연구소에 왔다.")
         print("-----------------------------------------------------------------------")
         self.select_to_talk()
+
+if __name__=="__main__":
+    client = Client()
+    client.start()

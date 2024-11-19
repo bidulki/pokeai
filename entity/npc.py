@@ -1,5 +1,5 @@
 from prompts import NPC_INFO_PROMPT
-from pokemon import Pokemon
+from .pokemon import Pokemon
 import json
 import os
 
@@ -23,7 +23,8 @@ class NPC:
     
     def load_pokemon(self, pokemon_list):
         self.pokemon_list = []
-        for poke_info in pokemon_list:
-            pokemon = Pokemon(poke_info)
-            self.pokemon_list.append(pokemon)
+        if len(pokemon_list) >0:
+            for poke_info in pokemon_list:
+                pokemon = Pokemon(poke_info)
+                self.pokemon_list.append(pokemon)
     

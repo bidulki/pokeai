@@ -1,4 +1,5 @@
-from entity import Pokemon, Item
+from .pokemon import Pokemon
+from .item import Item
 
 class UserAction:
     def __init__(self, user_action):
