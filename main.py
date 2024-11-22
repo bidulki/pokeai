@@ -1,5 +1,3 @@
-import sys
-sys.path.append("/home/bidulki/develop/pokeai")
 from fastapi import FastAPI
 from config import get_settings
 from model import NpcChat, PokeChat

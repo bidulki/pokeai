@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/bidulki/develop/pokeai")
+sys.path.append("../pokeai")
 from entity import NPC, Pokemon, Location, Item
 from model import *
 import requests
@@ -60,7 +60,7 @@ class Client:
     def send_request(self, api, param):
         headers = {"Content-Type": "application/json"}
         url = os.path.join(self.url, api)
-        response = requests.post(url, json=param.dict(), headers=headers)
+        response = requests.post(url, json=param.model_dump(), headers=headers)
         return response
 
     def choose_action(self, name):
