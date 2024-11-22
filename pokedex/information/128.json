@@ -1,0 +1,11 @@
+{
+  "id": 128,
+  "image": "pokedex/images/128.png",
+  "name": "켄타로스",
+  "category": "성난소 포켓몬",
+  "description": "몸통박치기로 공격해 올 때 3개의 꼬리로 자신의 몸을 가차 없이 때린다.",
+  "type": ["노말"],
+  "ability": "위협(상대방의 공격을 1랭크 하락시킨다.)",
+  "height": 1.4,
+  "weight": 88.4
+}

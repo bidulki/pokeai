@@ -1,0 +1,11 @@
+{
+  "id": 127,
+  "image": "pokedex/images/127.png",
+  "name": "쁘사이저",
+  "category": "뿔집게 포켓몬",
+  "description": "2개의 기다란 뿔은 파워풀. 일단 한번 끼어버리면 조각날 때까지 놓지 않는다.",
+  "type": ["벌레"],
+  "ability": "괴력집게(상대방에 의해 공격이 떨어지지 않는다.)",
+  "height": 1.5,
+  "weight": 55
+}

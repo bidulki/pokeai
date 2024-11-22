@@ -1,0 +1,10 @@
+{
+  "id": 124,
+  "image": "pokedex/images/124.png",
+  "name": "루주라",
+  "category": "인간형태 포켓몬",
+  "type": ["얼음", "에스퍼"],
+  "ability": "둔감(헤롱헤롱 상태가 되지 않는다.)",
+  "height": 1.4,
+  "weight": 40.6
+}

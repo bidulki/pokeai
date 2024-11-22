@@ -1,0 +1,11 @@
+{
+  "id": 145,
+  "image": "pokedex/images/145.png",
+  "name": "썬더",
+  "category": "전기 포켓몬",
+  "description": "전설의 새포켓몬 중 하나. 날 때 탁탁하고 뭔가 튀는 소리가 난다.",
+  "type": ["얼음", "비행"],
+  "ability": "프레셔(자신에게 기술을 쓴 상대방의 포켓몬의 기술 PP가 1씩 더 감소한다.)",
+  "height": 1.6,
+  "weight": 52.6
+}

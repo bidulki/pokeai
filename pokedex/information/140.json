@@ -1,0 +1,11 @@
+{
+  "id": 140,
+  "image": "pokedex/images/140.png",
+  "name": "투구",
+  "category": "껍질 포켓몬",
+  "description": "고대 생물의 화석에서 재생된 포켓몬. 단단한 껍데기로 몸을 지키고 있다.",
+  "type": ["바위", "물"],
+  "ability": "쓱쓱(비가 내릴 때 스피드가 2배로 증가한다.)",
+  "height": 0.5,
+  "weight": 11.5
+}

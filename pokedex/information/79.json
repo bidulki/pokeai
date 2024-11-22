@@ -1,0 +1,11 @@
+{
+  "id": 79,
+  "image": "pokedex/images/79.png",
+  "name": "야돈",
+  "category": "얼간이 포켓몬",
+  "description": "항상 멍하니 있어서 무슨 생각을 하고 있는지 알 수 없다. 꼬리로 먹이를 낚는 것이 특기다.",
+  "type": ["물", "에스퍼"],
+  "ability": "마이페이스(혼란 상태가 되지 않는다.)",
+  "height": 1.2,
+  "weight": 36
+}

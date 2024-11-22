@@ -1,0 +1,11 @@
+{
+  "id": 108,
+  "image": "pokedex/images/108.png",
+  "name": "내루미",
+  "category": "핥기 포켓몬",
+  "description": "혀가 키의 2배나 된다. 먹이를 잡거나 공격을 할 때면 마치 손처럼 움직인다.",
+  "type": ["노말"],
+  "ability": "마이페이스(혼란 상태가 되지 않는다.)",
+  "height": 1.2,
+  "weight": 65.5
+}

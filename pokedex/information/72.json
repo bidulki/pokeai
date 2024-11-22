@@ -1,0 +1,11 @@
+{
+  "id": 72,
+  "image": "pokedex/images/72.png",
+  "name": "왕눈해",
+  "category": "해파리 포켓몬",
+  "description": "수정처럼 투명한 눈알에서 이상하게 빛나는 빔을 발사한다.",
+  "type": ["물", "독"],
+  "ability": "클리어바디(상대의 기술/특성으로 인해 랭크가 떨어지지 않는다.)",
+  "height": 0.9,
+  "weight": 45.5
+}

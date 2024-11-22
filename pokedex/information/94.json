@@ -1,0 +1,11 @@
+{
+  "id": 94,
+  "image": "pokedex/images/94.png",
+  "name": "팬텀",
+  "category": "그림자 포켓몬",
+  "description": "산에서 조난하면 목숨을 빼앗기 위해 어둠 속에서 나타난다고 한다.",
+  "type": ["고스트", "독"],
+  "ability": "부유(땅 타입 기술에 맞지 않는다.)",
+  "height": 1.5,
+  "weight": 40.5
+}

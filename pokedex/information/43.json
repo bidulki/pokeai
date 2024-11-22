@@ -1,0 +1,11 @@
+{
+  "id": 43,
+  "image": "pokedex/images/43.png",
+  "name": "뚜벅쵸",
+  "category": "잡초 포켓몬",
+  "description": "별명 아르키멘데스. 밤이 되면 2개의 뿌리로 300m나 걷는다고 한다.",
+  "type": ["풀", "독"],
+  "ability": "엽록소(쾌청 상태에서는 스피드가 2배로 올라간다.)",
+  "height": 0.5,
+  "weight": 5.4
+}

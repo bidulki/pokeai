@@ -1,0 +1,11 @@
+{
+  "id": 23,
+  "image": "pokedex/images/23.png",
+  "name": "아보",
+  "category": "뱀 포켓몬",
+  "description": "풀밭 등에 많이 서식한다. 혀를 낼름낼름거리며 주위의 위험을 감지한다.",
+  "type": ["독"],
+  "ability": "위협(배틀에 나오면 상대 포켓몬의 공격을 1랭크 떨어뜨린다.)",
+  "height": 2,
+  "weight": 6.9
+}

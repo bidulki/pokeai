@@ -1,0 +1,11 @@
+{
+  "id": 116,
+  "image": "pokedex/images/116.png",
+  "name": "쏘드라",
+  "category": "드래곤 포켓몬",
+  "description": "용수철처럼 칭칭 감아서 꼬리로 몸의 밸런스를 잡는다. 입에서 먹물을 뿜는 경우가 있다.",
+  "type": ["물"],
+  "ability": "쓱쓱(비가 올 때 스피드가 2배가 된다.)",
+  "height": 0.4,
+  "weight": 8
+}

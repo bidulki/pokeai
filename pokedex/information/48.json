@@ -1,0 +1,10 @@
+{
+  "id": 48,
+  "image": "pokedex/images/48.png",
+  "name": "콘팡",
+  "category": "곤충 포켓몬",
+  "type": ["벌레", "독"],
+  "ability": "복안(기술의 명중률이 올라간다.)",
+  "height": 1,
+  "weight": 30
+}

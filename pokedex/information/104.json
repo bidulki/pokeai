@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "image": "pokedex/images/104.png",
+  "name": "탕구리",
+  "category": "고독 포켓몬",
+  "description": "죽은 어미의 해골을 머리에 쓰고 있다. 외로울 때는 큰 소리로 운다고 한다.",
+  "type": ["땅"],
+  "ability": "피뢰침(전기 타입 기술을 대신 맞는다.)",
+  "height": 0.4,
+  "weight": 6.5
+}

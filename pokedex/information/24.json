@@ -1,0 +1,11 @@
+{
+  "id": 24,
+  "image": "pokedex/images/24.png",
+  "name": "아보크",
+  "category": "코브라 포켓몬",
+  "description": "배의 무늬가 무서운 얼굴로 보인다. 약한 적은 그 무늬만 보고도 도망치고 만다.",
+  "type": ["독"],
+  "ability": "위협(배틀에 나오면 상대 포켓몬의 공격을 1랭크 떨어뜨린다.)",
+  "height": 3.5,
+  "weight": 65
+}

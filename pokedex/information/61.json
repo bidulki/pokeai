@@ -1,0 +1,11 @@
+{
+  "id": 61,
+  "image": "pokedex/images/61.png",
+  "name": "슈륙챙이",
+  "category": "올챙이 포켓몬",
+  "description": "두 다리가 발달하여 지상에서 살 수 있는데도 어째서인지 수중 생활을 좋아한다.",
+  "type": ["물"],
+  "ability": "저수(물 타입 공격을 받으면 무효화하고 전체 HP의 1/4만큼 체력을 회복한다.)",
+  "height": 1,
+  "weight": 20
+}

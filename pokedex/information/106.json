@@ -1,0 +1,11 @@
+{
+  "id": 106,
+  "image": "pokedex/images/106.png",
+  "name": "시라소몬",
+  "category": "킥 포켓몬",
+  "description": "다리를 자유자재로 늘였다 줄였다 한다. 멀리 떨어져 있을 때도 상대를 차올릴 수 있다.",
+  "type": ["격투"],
+  "ability": "유연(마비가 되지 않는다.)",
+  "height": 1.5,
+  "weight": 49.8
+}

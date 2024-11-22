@@ -1,0 +1,11 @@
+{
+  "id": 54,
+  "image": "pokedex/images/54.png",
+  "name": "고라파덕",
+  "category": "오리 포켓몬",
+  "description": "항상 두통에 시달리고 있다. 이 두통이 심해지면 이상한 힘을 쓰기 시작한다.",
+  "type": ["물"],
+  "ability": "습기(자폭, 대폭발과 유폭 특성을 무효화한다.)",
+  "height": 0.85,
+  "weight": 19.6
+}

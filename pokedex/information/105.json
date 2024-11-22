@@ -1,0 +1,11 @@
+{
+  "id": 105,
+  "image": "pokedex/images/105.png",
+  "name": "텅구리",
+  "category": "뼈다귀 포켓몬",
+  "description": "몸집도 작으며 원래는 약했다. 뼈를 쓰기 시작하면서 성격이 흉포해졌다.",
+  "type": ["땅"],
+  "ability": "피뢰침(전기 타입 기술을 대신 맞는다.)",
+  "height": 1,
+  "weight": 45
+}

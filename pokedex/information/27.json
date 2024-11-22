@@ -1,0 +1,11 @@
+{
+  "id": 27,
+  "image": "pokedex/images/27.png",
+  "name": "모래두지",
+  "category": "쥐 포켓몬",
+  "description": "지면에 구멍을 파고 산다. 자신에게 위험이 닥쳐오면 둥글게 말아서 몸을 보호한다.",
+  "type": ["땅"],
+  "ability": "모래숨기(모래바람이 불면 회피율이 20% 올라간다.)",
+  "height": 0.6,
+  "weight": 12
+}

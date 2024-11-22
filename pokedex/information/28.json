@@ -1,0 +1,11 @@
+{
+  "id": 28,
+  "image": "pokedex/images/28.png",
+  "name": "고지",
+  "category": "쥐 포켓몬",
+  "description": "엄청 빠르게 달리고 돌며 등의 가시와 날카로운 손톱을 쓴 공격이 특기.",
+  "type": ["땅"],
+  "ability": "모래숨기(모래바람이 불면 회피율이 20% 올라간다.)",
+  "height": 1,
+  "weight": 29.5
+}

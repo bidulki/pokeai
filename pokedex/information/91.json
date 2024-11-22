@@ -1,0 +1,11 @@
+{
+  "id": 91,
+  "image": "pokedex/images/91.png",
+  "name": "파르셀",
+  "category": "두조개 포켓몬",
+  "description": "껍데기가 상당히 단단하여 네이팜탄으로도 부술 수 없다. 공격할 때만 연다.",
+  "type": ["물", "얼음"],
+  "ability": "조가비갑옷(급소에 맞지 않는다.)",
+  "height": 1.5,
+  "weight": 132.5
+}

@@ -1,0 +1,11 @@
+{
+  "id": 114,
+  "image": "pokedex/images/114.png",
+  "name": "덩쿠리",
+  "category": "덩굴 포켓몬",
+  "description": "파란 덩굴이 뒤엉켜서 정체불명이다. 다가오는 것을 덩굴로 휘감는다.",
+  "type": ["풀"],
+  "ability": "엽록소(쾌청일 때 스피드가 2배가 된다.)",
+  "height": 1,
+  "weight": 35
+}

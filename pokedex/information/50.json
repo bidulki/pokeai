@@ -1,0 +1,11 @@
+{
+  "id": 50,
+  "image": "pokedex/images/50.png",
+  "name": "디그다",
+  "category": "두더지 포켓몬",
+  "description": "얕은 땅속을 이동한다. 굴을 파며 다닌 곳은 지면이 솟아 있기 때문에 바로 알 수 있다.",
+  "type": ["땅"],
+  "ability": "모래숨기(모래바람이 불 때 회피율이 오른다.)",
+  "height": 0.2,
+  "weight": 0.8
+}

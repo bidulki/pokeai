@@ -1,0 +1,11 @@
+{
+  "id": 115,
+  "image": "pokedex/images/115.png",
+  "name": "캥카",
+  "category": "가족 포켓몬",
+  "description": "암컷은 배의 주머니에 새끼를 넣어 기른다. 연속펀치 공격이 특기.",
+  "type": ["노말"],
+  "ability": "일찍기상(잠이 들 때 빨리 깨어난다.)",
+  "height": 2.2,
+  "weight": 80
+}

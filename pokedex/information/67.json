@@ -1,0 +1,11 @@
+{
+  "id": 67,
+  "image": "pokedex/images/67.png",
+  "name": "근육몬",
+  "category": "괴력 포켓몬",
+  "description": "지칠 줄 모르는 강인한 육체를 가졌다. 무거운 짐 운반하기 등의 일을 돕는다.",
+  "type": ["격투"],
+  "ability": "근성(상태이상일 때 공격이 1.5배로 올라간다.)",
+  "height": 1.5,
+  "weight": 70.5
+}

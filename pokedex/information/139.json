@@ -1,0 +1,11 @@
+{
+  "id": 139,
+  "image": "pokedex/images/139.png",
+  "name": "암스타",
+  "category": "소용돌이 포켓몬",
+  "description": "촉수가 팔다리처럼 발달해 있다. 달라붙자마자 문다.",
+  "type": ["바위", "물"],
+  "ability": "쓱쓱(비가 내릴 때 스피드가 2배로 증가한다.)",
+  "height": 1,
+  "weight": 35
+}

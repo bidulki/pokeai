@@ -1,0 +1,11 @@
+{
+  "id": 90,
+  "image": "pokedex/images/90.png",
+  "name": "셀러",
+  "category": "두조개 포켓몬",
+  "description": "다이아몬드보다 딱딱한 껍질로 덮였다. 하지만 껍질 안은 의외로 말랑하다.",
+  "type": ["물"],
+  "ability": "조가비갑옷(급소에 맞지 않는다.)",
+  "height": 0.3,
+  "weight": 4
+}

@@ -1,0 +1,11 @@
+{
+  "id": 56,
+  "image": "pokedex/images/56.png",
+  "name": "망키",
+  "category": "돈숭이 포켓몬 ",
+  "description": "몸놀림이 가볍고 난폭한 성격. 화가 나서 날뛰기 시작하면 손쓸 방도가 없게 된다.",
+  "type": ["격투"],
+  "ability": "의기양양(잠들지 않는다.)",
+  "height": 0.5,
+  "weight": 28
+}

@@ -1,0 +1,11 @@
+{
+  "id": 71,
+  "image": "pokedex/images/71.png",
+  "name": "우츠보트",
+  "category": "파리잡이 포켓몬",
+  "description": "꿀 같은 향기에 꾀어 입 안으로 들어가면 끝장. 용해액에 녹아버린다.",
+  "type": ["풀", "독"],
+  "ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+  "height": 1.7,
+  "weight": 15.5
+}

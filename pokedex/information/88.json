@@ -1,0 +1,11 @@
+{
+  "id": 88,
+  "image": "pokedex/images/88.png",
+  "name": "질퍽이",
+  "category": "오물 포켓몬",
+  "description": "달로부터 X선을 쬔 진흙이 질퍽이로 변화했다. 더러운 것을 즐겨 먹는다.",
+  "type": ["독"],
+  "ability": "악취(상대에게 공격을 할 때 10%의 확률로 풀죽음 효과가 난다.)",
+  "height": 0.9,
+  "weight": 30
+}

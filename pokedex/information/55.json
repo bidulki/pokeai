@@ -1,0 +1,11 @@
+{
+  "id": 55,
+  "image": "pokedex/images/55.png",
+  "name": "골덕",
+  "category": "오리 포켓몬",
+  "description": "손바닥이 물갈퀴로 되어 있어 헤엄을 잘 친다. 호수 등에서 우아한 모습을 볼 수 있다.",
+  "type": ["물"],
+  "ability": "습기(자폭, 대폭발과 유폭 특성을 무효화한다.)",
+  "height": 1.72,
+  "weight": 76.6
+}

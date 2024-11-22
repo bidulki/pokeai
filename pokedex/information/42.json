@@ -1,0 +1,11 @@
+{
+  "id": 42,
+  "image": "pokedex/images/42.png",
+  "name": "골뱃",
+  "category": "박쥐 포켓몬",
+  "description": "에리한 이빨로 물어뜯어 한번에 300cc의 피를 빨아들여 버린다.",
+  "type": ["독", "비행"],
+  "ability": "정신력(풀죽지 않는다. 8세대부터 특성 위협의 효과를 받지 않는다)",
+  "height": 1.6,
+  "weight": 55
+}

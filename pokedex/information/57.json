@@ -1,0 +1,11 @@
+{
+  "id": 57,
+  "image": "pokedex/images/57.png",
+  "name": "성원숭",
+  "category": "돈숭이 포켓몬 ",
+  "description": "언제나 굉장히 화가 나 있으며, 아무리 도망쳐도 계속 쫓아온다.",
+  "type": ["격투"],
+  "ability": "의기양양(잠들지 않는다.)",
+  "height": 1,
+  "weight": 32
+}

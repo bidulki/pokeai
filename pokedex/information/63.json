@@ -1,0 +1,11 @@
+{
+  "id": 63,
+  "image": "pokedex/images/63.png",
+  "name": "캐이시",
+  "category": "초능력 포켓몬",
+  "description": "하루에 18시간은 자고 있다. 자는 동안에도 다양한 초능력을 사용한다.",
+  "type": ["에스퍼"],
+  "ability": "싱크로(자신이 상태이상에 걸리면 상대도 같은 상태가 된다.)",
+  "height": 0.9,
+  "weight": 19.5
+}

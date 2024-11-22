@@ -1,0 +1,11 @@
+{
+  "id": 81,
+  "image": "pokedex/images/81.png",
+  "name": "코일",
+  "category": "자석 포켓몬",
+  "description": "공중에 뜬 채로 이동하여 좌우의 유닛에서 전기자석파를 방사한다.",
+  "type": ["전기", "강철"],
+  "ability": "옹골참(일격기가 통하지 않으며 HP가 꽉 차 있을 때 일격에 쓰러지지 않는다.)",
+  "height": 0.3,
+  "weight": 6
+}

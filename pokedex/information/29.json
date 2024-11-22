@@ -1,0 +1,11 @@
+{
+  "id": 29,
+  "image": "pokedex/images/29.png",
+  "name": "니드런♀",
+  "category": "독침 포켓몬",
+  "description": "작아도 독바늘의 위력은 강렬하므로 주의가 필요. 암컷은 뿔이 작다.",
+  "type": ["독"],
+  "ability": "독가시(접촉판정이 있는 공격을 한 상대를 30%의 확률로 독 상태로 만든다.)",
+  "height": 0.4,
+  "weight": 7
+}

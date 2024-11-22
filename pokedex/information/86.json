@@ -1,0 +1,11 @@
+{
+  "id": 86,
+  "image": "pokedex/images/86.png",
+  "name": "쥬쥬",
+  "category": "강치 포켓몬",
+  "description": "하늘색의 털로 뒤덮인 피부는 두껍고 튼튼하다. 영하 40도라도 활동할 수 있다.",
+  "type": ["물"],
+  "ability": "두꺼운지방(불 타입과 얼음 타입의 대미지를 반감시킨다.)",
+  "height": 1.1,
+  "weight": 90
+}

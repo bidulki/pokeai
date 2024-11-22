@@ -1,0 +1,11 @@
+{
+  "id": 148,
+  "image": "pokedex/images/148.png",
+  "name": "신뇽",
+  "category": "드래곤 포켓몬",
+  "description": "바다나 호수 등에 산다고 한다. 날개는 없지만 가끔 하늘을 나는 모습이 목격된다.",
+  "type": ["드래곤"],
+  "ability": "탈피(매 턴 종료 시 30% 확률로 상태이상이 회복된다.)",
+  "height": 4,
+  "weight": 16.5
+}

@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "image": "pokedex/images/14.png",
+  "name": "딱충이",
+  "category": "번데기 포켓몬",
+  "description": "성체의 몸을 만들기 위해서 일시적인 상태. 스스로 거의 움직이지 않는다.",
+  "type": ["벌레", "독"],
+  "ability": "탈피(상태 이상을 회복할 때가 있다.)",
+  "height": 0.6,
+  "weight": 10
+}

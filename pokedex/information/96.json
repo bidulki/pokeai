@@ -1,0 +1,11 @@
+{
+  "id": 96,
+  "image": "pokedex/images/96.png",
+  "name": "슬리프",
+  "category": "최면 포켓몬",
+  "description": "꿈을 먹는다는 전설의 동물 맥의 후손. 최면술이 특기다.",
+  "type": ["에스퍼"],
+  "ability": "불면(이 포켓몬은 잠들지 않는다. 스스로 잠자기를 사용할 수도 없다.)",
+  "height": 1,
+  "weight": 32.4
+}

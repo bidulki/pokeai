@@ -1,0 +1,11 @@
+{
+  "id": 93,
+  "image": "pokedex/images/93.png",
+  "name": "고우스트",
+  "category": "가스 포켓몬",
+  "description": "어둠 속에서 아무도 없는데도 누군가가 보고 있다는 느낌이 들면그곳에 고우스트가 있는 것이다.",
+  "type": ["고스트", "독"],
+  "ability": "부유(땅 타입 기술에 맞지 않는다.)",
+  "height": 1.6,
+  "weight": 90
+}

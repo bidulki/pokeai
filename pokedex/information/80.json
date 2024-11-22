@@ -1,0 +1,11 @@
+{
+  "id": 80,
+  "image": "pokedex/images/80.png",
+  "name": "야도란",
+  "category": "기생 포켓몬",
+  "description": "야돈이 바다로 먹이를 잡으러 갔다가 셀러에게 꼬리를 물려 야도란이 되었다.",
+  "type": ["물", "에스퍼"],
+  "ability": "마이페이스(혼란 상태가 되지 않는다.)",
+  "height": 1.6,
+  "weight": 78.5
+}

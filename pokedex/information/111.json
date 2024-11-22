@@ -1,0 +1,11 @@
+{
+  "id": 111,
+  "image": "pokedex/images/111.png",
+  "name": "뿔카노",
+  "category": "뿔 포켓몬",
+  "description": "머리는 나쁘지만 힘이 세서 고층 빌딩도 몸통박치기로 산산조각 낸다.",
+  "type": ["땅", "바위"],
+  "ability": "피뢰침(더블 배틀 시 전기 타입의 기술이 자신에게로 몰린다.)",
+  "height": 1,
+  "weight": 115
+}

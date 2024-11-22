@@ -1,0 +1,146 @@
+{
+  "노말": {
+    "바위": "weak",
+    "고스트": "miss",
+    "강철": "weak"
+  },
+  "불꽃": {
+    "불꽃": "weak",
+    "물": "weak",
+    "풀": "strong",
+    "얼음": "strong",
+    "벌레": "strong",
+    "바위": "weak",
+    "드래곤": "weak",
+    "강철": "strong"
+  },
+  "물": {
+    "불꽃": "strong",
+    "물": "weak",
+    "풀": "weak",
+    "땅": "strong",
+    "바위": "strong",
+    "드래곤": "weak"
+  },
+  "전기": {
+    "물": "strong",
+    "전기": "weak",
+    "풀": "weak",
+    "땅": "miss",
+    "비행": "strong",
+    "드래곤": "weak"
+  },
+  "풀": {
+    "불꽃": "weak",
+    "물": "strong",
+    "풀": "weak",
+    "독": "weak",
+    "땅": "strong",
+    "비행": "weak",
+    "벌레": "weak",
+    "바위": "strong",
+    "드래곤": "weak",
+    "강철": "weak"
+  },
+  "얼음": {
+    "불꽃": "weak",
+    "물": "weak",
+    "풀": "strong",
+    "얼음": "weak",
+    "땅": "strong",
+    "비행": "strong",
+    "드래곤": "strong",
+    "강철": "weak"
+  },
+  "격투": {
+    "노말": "strong",
+    "얼음": "strong",
+    "독": "weak",
+    "비행": "weak",
+    "에스퍼": "weak",
+    "벌레": "weak",
+    "바위": "strong",
+    "고스트": "miss",
+    "악": "strong",
+    "강철": "strong"
+  },
+  "독": {
+    "풀": "strong",
+    "독": "weak",
+    "땅": "weak",
+    "바위": "weak",
+    "고스트": "weak",
+    "강철": "miss"
+  },
+  "땅": {
+    "불꽃": "strong",
+    "전기": "strong",
+    "풀": "weak",
+    "독": "strong",
+    "비행": "miss",
+    "벌레": "weak",
+    "바위": "strong",
+    "강철": "strong"
+  },
+  "비행": {
+    "전기": "weak",
+    "풀": "strong",
+    "격투": "strong",
+    "벌레": "strong",
+    "바위": "weak",
+    "강철": "weak"
+  },
+  "에스퍼": {
+    "격투": "strong",
+    "독": "strong",
+    "에스퍼": "weak",
+    "악": "miss",
+    "강철": "weak"
+  },
+  "벌레": {
+    "불꽃": "weak",
+    "풀": "strong",
+    "격투": "weak",
+    "독": "weak",
+    "비행": "weak",
+    "에스퍼": "strong",
+    "고스트": "weak",
+    "악": "strong",
+    "강철": "weak"
+  },
+  "바위": {
+    "불꽃": "strong",
+    "얼음": "strong",
+    "격투": "weak",
+    "땅": "weak",
+    "비행": "strong",
+    "벌레": "strong",
+    "강철": "weak"
+  },
+  "고스트": {
+    "노말": "miss",
+    "에스퍼": "strong",
+    "고스트": "strong",
+    "악": "weak",
+    "강철": "weak"
+  },
+  "드래곤": {
+    "드래곤": "strong",
+    "강철": "weak"
+  },
+  "악": {
+    "격투": "weak",
+    "에스퍼": "strong",
+    "고스트": "strong",
+    "악": "weak",
+    "강철": "weak"
+  },
+  "강철": {
+    "불꽃": "weak",
+    "물": "weak",
+    "전기": "weak",
+    "얼음": "strong",
+    "바위": "strong",
+    "강철": "weak"
+  }
+}

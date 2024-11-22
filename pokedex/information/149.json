@@ -1,0 +1,11 @@
+{
+  "id": 149,
+  "image": "pokedex/images/149.png",
+  "name": "망나뇽",
+  "category": "드래곤 포켓몬",
+  "description": "커다란 몸집으로 하늘을 난다. 지구를 약 16시간 만에 일주한다.",
+  "type": ["드래곤", "비행"],
+  "ability": "정신력(풀이 죽지 않는다.)",
+  "height": 2.2,
+  "weight": 210
+}

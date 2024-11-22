@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "image": "pokedex/images/20.png",
+  "name": "레트라",
+  "category": "쥐 포켓몬",
+  "description": "뒷발가락은 3개로 작은 물갈퀴가 달려 있다. 강을 헤엄쳐 건넌다.",
+  "type": ["노말"],
+  "ability": "도주(야생 포켓몬과의 배틀에서 반드시 도망칠 수 있다.)",
+  "height": 0.7,
+  "weight": 18.5
+}

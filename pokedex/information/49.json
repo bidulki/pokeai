@@ -1,0 +1,10 @@
+{
+  "id": 49,
+  "image": "pokedex/images/49.png",
+  "name": "도나리",
+  "category": "독나방 포켓몬",
+  "type": ["벌레", "독"],
+  "ability": "인분(상대에게 받는 공격의 부가효과가 발동하지 않는다.)",
+  "height": 1.5,
+  "weight": 12.5
+}

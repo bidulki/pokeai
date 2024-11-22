@@ -1,0 +1,10 @@
+{
+  "id": 125,
+  "image": "pokedex/images/125.png",
+  "name": "에레브",
+  "category": "전기 포켓몬",
+  "type": ["전기"],
+  "ability": "정전기(접촉한 상대를 30% 확률로 마비시킨다.)",
+  "height": 1.1,
+  "weight": 30
+}

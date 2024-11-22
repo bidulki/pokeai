@@ -1,0 +1,11 @@
+{
+  "id": 69,
+  "image": "pokedex/images/69.png",
+  "name": "모다피",
+  "category": "꽃 포켓몬",
+  "description": "사람 얼굴 같은 봉오리 때문에 전설의 꽃 만드라고라의 일종이 아닐까 하는 소문이 돌고 있다.",
+  "type": ["풀", "독"],
+  "ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+  "height": 0.7,
+  "weight": 4
+}

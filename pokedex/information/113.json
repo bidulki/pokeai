@@ -1,0 +1,11 @@
+{
+  "id": 113,
+  "image": "pokedex/images/113.png",
+  "name": "럭키",
+  "category": "알 포켓몬",
+  "description": "하루에 몇 개씩 알을 낳는다. 그 알은 영양 만점으로 아주 맛있다는 듯 하다.",
+  "type": ["노말"],
+  "ability": "자연회복(교체하면 모든 상태이상을 회복한다.)",
+  "height": 1.1,
+  "weight": 34.6
+}

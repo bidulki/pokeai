@@ -1,0 +1,11 @@
+{
+  "id": 102,
+  "image": "pokedex/images/102.png",
+  "name": "아라리",
+  "category": "알 포켓몬",
+  "description": "무언가의 알 같지만 실은 식물의 씨앗에 가까운 생물이라는 사실이 드러났다.",
+  "type": ["풀", "에스퍼"],
+  "ability": "엽록소(쾌청 상태에서 스피드가 2배로 오른다.)",
+  "height": 0.4,
+  "weight": 2.5
+}

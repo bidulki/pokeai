@@ -1,0 +1,11 @@
+{
+  "id": 12,
+  "image": "pokedex/images/12.png",
+  "name": "버터플",
+  "category": "나비 포켓몬",
+  "description": "물을 튕겨내는 가루가 날개를 보호하고 있다. 비가 오는 날에도 하늘을 날 수 있다.",
+  "type": ["벌레", "비행"],
+  "ability": "복안(기술의 명중률이 1.3배가 된다.)",
+  "height": 1.1,
+  "weight": 32
+}

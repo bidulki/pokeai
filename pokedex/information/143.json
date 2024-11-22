@@ -1,0 +1,11 @@
+{
+  "id": 143,
+  "image": "pokedex/images/143.png",
+  "name": "잠만보",
+  "category": "졸음 포켓몬",
+  "description": "하루에 먹을 것을 400kg먹지 않으면 성에 차지 않는다.다 먹으면 잠이 들어 버린다.",
+  "type": ["노말"],
+  "ability": "면역(독, 맹독 상태가 되지 않는다.)",
+  "height": 2.1,
+  "weight": 460
+}

@@ -1,0 +1,11 @@
+{
+  "id": 132,
+  "image": "pokedex/images/132.png",
+  "name": "메타몽",
+  "category": "변신 포켓몬",
+  "description": "몸의 세포 구성을 스스로 바꿔서 다른 생명체로 변신한다.",
+  "type": ["노말"],
+  "ability": "유연(마비 상태가 되지 않는다.)",
+  "height": 0.3,
+  "weight": 4
+}

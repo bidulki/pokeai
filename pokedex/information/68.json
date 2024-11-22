@@ -1,0 +1,11 @@
+{
+  "id": 68,
+  "image": "pokedex/images/68.png",
+  "name": "괴력몬",
+  "category": "괴력 포켓몬",
+  "description": "발달한 4개의 팔은 2초 동안 1000번의 펀치를 날릴 수 있다.",
+  "type": ["격투"],
+  "ability": "근성(상태이상일 때 공격이 1.5배로 올라간다.)",
+  "height": 1.6,
+  "weight": 130
+}

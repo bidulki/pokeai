@@ -1,0 +1,11 @@
+{
+  "id": 84,
+  "image": "pokedex/images/84.png",
+  "name": "두두",
+  "category": "쌍둥이새 포켓몬",
+  "description": "돌연변이로 발견된 두 개의 머리를 지닌 포켓몬이다. 시속 100km로 달린다.",
+  "type": ["노말", "비행"],
+  "ability": "도주(야생 포켓몬으로부터 100% 도망친다.)",
+  "height": 1.4,
+  "weight": 39.2
+}

@@ -1,0 +1,11 @@
+{
+  "id": 98,
+  "image": "pokedex/images/98.png",
+  "name": "크랩",
+  "category": "게 포켓몬",
+  "description": "바다 근처에서 발견된다. 커다란 집게는 뜯겨도 나중에 다시 자라난다.",
+  "type": ["물"],
+  "ability": "괴력집게(상대가 이 특성을 가진 포켓몬의 공격을 떨어뜨리지 못하게 한다.)",
+  "height": 0.4,
+  "weight": 6.5
+}

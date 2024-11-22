@@ -1,0 +1,11 @@
+{
+  "id": 118,
+  "image": "pokedex/images/118.png",
+  "name": "콘치",
+  "category": "금붕어 포켓몬",
+  "description": "등지느러미와 가슴지느러미가 근육처럼 발달했으며 물속을 5노트의 스피드로 헤엄친다.",
+  "type": ["물"],
+  "ability": "수의베일(화상을 입지 않는다.)",
+  "height": 0.6,
+  "weight": 15
+}

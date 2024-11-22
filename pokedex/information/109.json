@@ -1,0 +1,11 @@
+{
+  "id": 109,
+  "image": "pokedex/images/109.png",
+  "name": "또가스",
+  "category": "독가스 포켓몬",
+  "description": "얇고 풍선 같은 몸에 맹독 가스가 차있다. 가까이 오면 역겨운 냄새가 난다.",
+  "type": ["독"],
+  "ability": "부유(땅 타입의 공격을 맞지 않는다.)",
+  "height": 0.6,
+  "weight": 1
+}

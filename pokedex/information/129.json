@@ -1,0 +1,11 @@
+{
+  "id": 129,
+  "image": "pokedex/images/129.png",
+  "name": "잉어킹",
+  "category": "물고기 포켓몬",
+  "description": "힘도 스피드도 거의 없다. 세상에서 가장 약하고 한심한 포켓몬이다.[4]",
+  "type": ["물"],
+  "ability": "쓱쓱(비가 내릴 때 스피드가 2배로 증가한다.)",
+  "height": 0.9,
+  "weight": 10
+}

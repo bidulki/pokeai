@@ -1,0 +1,11 @@
+{
+  "id": 70,
+  "image": "pokedex/images/70.png",
+  "name": "우츠동",
+  "category": "파리잡이 포켓몬",
+  "description": "잎사귀 부분은 칼날이 되어 상대를 베어버린다. 입에서는 무엇이든 녹이는 액체를 뿜어낸다.",
+  "type": ["풀", "독"],
+  "ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+  "height": 1,
+  "weight": 6.4
+}
