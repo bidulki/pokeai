@@ -36,6 +36,14 @@ class Client:
         self.load_npc()
         self.load_pokemon()
         self.load_item()
+        self.NPC_chatHistory = {
+            1: []
+        }
+        self.Pokemon_chatHistory = {
+            1: [],
+            2: [],
+            3: []
+        }
     
     def load_npc(self):
         self.NPC_list = []
@@ -63,6 +71,10 @@ class Client:
         response = requests.post(url, json=param.model_dump(), headers=headers)
         return response
 
+    def make_message(self, role, content):
+        message = {"role": role, "content": content}
+        return message
+    
     def choose_action(self, name):
         print("어떤 행동을 하겠습니까?")
         print("1. 대화한다 2. 배틀한다 3. 건네준다 4. 포획한다 5. 그만둔다")
@@ -107,6 +119,7 @@ class Client:
 
     def talk_with_entity(self, entity, chatHistory):
         user_action = self.choose_action(entity.name)
+        choices = []
         if user_action.action == "chat":
             conversation = Conversation(
                 userInfo=self.user, 
@@ -116,17 +129,31 @@ class Client:
             )
             if isinstance(entity, Pokemon):
                 poke_info=dict(entity.poke_info)
+                print(poke_info)
                 param = PokeChat(pokeInfo=poke_info, conversation=conversation)
                 response = self.send_request("api/chat/poke", param)
                 response = response.json()
-                narration = response.get("narration")
+                message = response.get("narration")
+                new_message1 = self.make_message("user", user_action.chat)
+                new_message2 = self.make_message("assistant", message)
+                self.Pokemon_chatHistory[entity.id].append(new_message1)
+                self.Pokemon_chatHistory[entity.id].append(new_message2)
             elif isinstance(entity, NPC):
                 npc_info=dict(entity.npc_info)
-                param = NpcChat(NpcInfo=npc_info, conversation=conversation)
+                print(npc_info)
+                param = NpcChat(npcInfo=npc_info, conversation=conversation)
                 response = self.send_request("api/chat/npc", param)
                 response = response.json()
-                narration = response.get("chat")
-            print(f"{narration}")
+                message = response.get("message")
+                choices = response.get("choices")
+                new_message1 = self.make_message("user", user_action.chat)
+                new_message2 = self.make_message("assistant", message)
+                self.NPC_chatHistory[entity.id].append(new_message1)
+                self.NPC_chatHistory[entity.id].append(new_message2)
+            print(f"{message}")
+            if len(choices)!=0:
+                for i, choice in enumerate(choices):
+                    print(f"{i+1}: {choice}")
             print("-----------------------------------------------------------------------")
             self.talk_with_entity(entity, chatHistory)
         elif user_action.action == "battle":
@@ -168,7 +195,10 @@ class Client:
 
         print("-----------------------------------------------------------------------")
         print(f"{select.name}과 대화를 시작합니다.")
-        chatHistory = []
+        if isinstance(select, Pokemon):
+            chatHistory = self.Pokemon_chatHistory[select.id]
+        else:
+            chatHistory = self.NPC_chatHistory[select.id]
         self.talk_with_entity(select, chatHistory)
 
     def start(self):

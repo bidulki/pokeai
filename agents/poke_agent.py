@@ -33,7 +33,7 @@ class PokeAgent(Agent):
     def __call__(self):
         if self.user_action.action == "quit":
             self.update_vectorDB()
-            output = PokeChatOutput(emotion=None, naration=None)
+            output = PokeChatOutput(naration="")
         else:
             user_action = self.user_action_message(self.name)
             self.chat_history.append(user_action)

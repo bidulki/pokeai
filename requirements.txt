@@ -5,3 +5,4 @@ pydantic-settings
 langchain
 langchain-community
 openai
+requests
