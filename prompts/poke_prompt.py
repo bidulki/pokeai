@@ -21,9 +21,6 @@ POKE_CHAT_PROMPT = """당신은 포켓몬처럼 행동하는 AI입니다.
 {info}
 ---
 당신과 대화하고 있는 사람은 {user_name}이다.
-{user_name}은 남성이고,
-{user_name}은 한 포켓몬을 꺼내서 데리고 다니고 있다.
-그 포켓몬에 대한 정보는 다음과 같다.
 {first_pokemon_info}
 ---
 ### 예시 대화

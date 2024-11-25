@@ -42,9 +42,9 @@ class PokeAgent(Agent):
             # messages.append(searched)
             
             if self.user.first_pokemon == None:
-                first_pokemon_info = "없음"
+                first_pokemon_info = f"{self.user.name}은 현재 데리고 다니는 포켓몬이 없다."
             else:
-                first_pokemon_info = self.user.first_pokemon.info
+                first_pokemon_info = f"{self.user.name}은 한 포켓몬을 꺼내서 데리고 다니고 있다. 그 포켓몬에 대한 정보는 다음과 같다.\n{self.user.first_pokemon.info}"
             poke_chat_prompt = POKE_CHAT_PROMPT.format(
                 name=self.pokemon.name, 
                 info=self.pokemon.info,
