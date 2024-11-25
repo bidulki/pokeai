@@ -8,7 +8,7 @@ class Location:
     
     def load_location_info(self, location_id):
         location_file_path = os.path.join("./locations", f"{location_id}.json")
-        with open(location_file_path, 'r') as f:
+        with open(location_file_path, 'r', encoding='UTF8') as f:
             location_json = json.load(f)
         
         self.name = location_json['name']

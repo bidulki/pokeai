@@ -13,7 +13,7 @@ class Pokemon:
 
     def load_pokedex(self):
         pokedex_file_path = os.path.join("./pokedex/information", f"{self.dexNum}.json")
-        with open(pokedex_file_path, 'r') as f:
+        with open(pokedex_file_path, 'r', encoding='UTF8') as f:
             pokedex_json = json.load(f)
 
         self.image_path = pokedex_json['image']

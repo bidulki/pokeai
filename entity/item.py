@@ -9,7 +9,7 @@ class Item:
 
     def load_item_info(self, itemId):
         item_path = os.path.join("./items", f"{itemId}.json")
-        with open(item_path, 'r') as f:
+        with open(item_path, 'r', encoding='UTF8') as f:
             item_json = json.load(f)
         self.name = item_json['name']
         self.price = item_json['price']

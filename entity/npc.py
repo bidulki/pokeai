@@ -11,7 +11,7 @@ class NPC:
 
     def load_npc_info(self, npc_id):
         npc_file_path = os.path.join("./npc_persona", f"{npc_id}.json")
-        with open(npc_file_path, 'r') as f:
+        with open(npc_file_path, 'r', encoding='UTF8') as f:
             npc_json = json.load(f)
 
         self.id = npc_json['id']
