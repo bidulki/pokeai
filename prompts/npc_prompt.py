@@ -31,6 +31,10 @@ NPC_CHAT_PROMPT = """당신은 포켓몬 세계에 살고 있는 NPC입니다.
 그 포켓몬에 대한 정보는 다음과 같다.
 {first_pokemon_info}
 ---
+당신은 현재 {location}에 있다.
+{location}에 대한 정보는 다음과 같다.
+{location_info}
+---
 ### 예시 대화
 {user_name}: 이건 상처약이야. 포켓몬의 체력을 회복시키는데 정말 유용하지!
 Choices:[

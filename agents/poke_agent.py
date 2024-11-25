@@ -48,7 +48,9 @@ class PokeAgent(Agent):
                 name=self.pokemon.name, 
                 info=self.pokemon.info,
                 user_name=self.user.name,
-                first_pokemon_info= first_pokemon_info 
+                first_pokemon_info= first_pokemon_info ,
+                location = self.location.name,
+                location_info = self.location.description
                 )
             total_messages = self.make_total_messages(poke_chat_prompt, messages)
             print(total_messages)

@@ -148,7 +148,7 @@ class Client:
                 new_message2 = self.make_message("assistant", message)
                 self.NPC_chatHistory[entity.id].append(new_message1)
                 self.NPC_chatHistory[entity.id].append(new_message2)
-            print(f"{entity.name}: {message}")
+            print(f"{message}")
             if len(choices)!=0:
                 for i, choice in enumerate(choices):
                     print(f"{i+1}: {choice}")
@@ -201,6 +201,7 @@ class Client:
         print(f"{select.name}과 대화를 시작합니다.")
         greet_message = self.make_message("system", f"{self.user.name}이 대화를 걸어왔다.")
         user_action = UserAction(action="chat")
+        choices=[]
         if isinstance(select, Pokemon):
             chatHistory = self.Pokemon_chatHistory[select.id]
             chatHistory.append(greet_message)
@@ -238,7 +239,7 @@ class Client:
             self.NPC_chatHistory[select.id].append(greet_message)
             self.NPC_chatHistory[select.id].append(new_message)
             
-        print(f"{select.name}: {message}")
+        print(f"{message}")
         if len(choices)!=0:
             for i, choice in enumerate(choices):
                 print(f"{i+1}: {choice}")

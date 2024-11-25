@@ -37,7 +37,9 @@ class NPCAgent(Agent):
                 name=self.npc.name,
                 info=self.npc.info,
                 user_name=self.user.name,
-                first_pokemon_info= first_pokemon_info
+                first_pokemon_info= first_pokemon_info,
+                location = self.location.name,
+                location_info = self.location.description
             )
             total_messages = self.make_total_messages(npc_chat_prompt, messages)
             print(total_messages)
