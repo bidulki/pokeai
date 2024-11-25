@@ -210,6 +210,7 @@ class Client:
             param = PokeChat(pokeInfo=poke_info, conversation=conversation)
             response = self.send_request("api/chat/poke", param)
             response = response.json()
+            message = response.get("narration")
             chatHistory = response.get("chatHistory")
             self.Pokemon_chatHistory[select.id] = chatHistory
             
