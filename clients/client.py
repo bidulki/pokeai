@@ -18,18 +18,21 @@ class Client:
                 "id": 1,
                 "dexNum": 1,
                 "hp": 100,
+                "friendship": 50,
                 "status": "NOR"
             }, 
             {
                 "id": 2,
                 "dexNum": 4,
                 "hp": 100,
+                "friendship": 0,
                 "status": "NOR"
             },
             {
                 "id": 3,
                 "dexNum": 7,
                 "hp": 100,
+                "friendship":30,
                 "status": "NOR"
             }
         ]
@@ -134,6 +137,12 @@ class Client:
                 response = response.json()
                 message = response.get("narration")
                 chatHistory = response.get("chatHistory")
+                friendship_shift = response.get("friendshipShift")
+                entity.friendship += friendship_shift
+                if friendship_shift == 5:
+                    print("친밀도가 5 상승하였습니다.")
+                elif friendship_shift == -5:
+                    print("친밀도가 5 하강하였습니다.")
                 self.Pokemon_chatHistory[entity.id] = chatHistory
             elif isinstance(entity, NPC):
                 npc_info=dict(entity.npc_info)
@@ -163,15 +172,28 @@ class Client:
             print("구현 미완료")
             print("-----------------------------------------------------------------------")
             self.talk_with_entity(entity, chatHistory)
-        else:
+        elif user_action.action == "quit":
             print("-----------------------------------------------------------------------")
-            end_message = self.make_message("system", f"{self.user.name}이 대화를 그만두었다.")
-            chatHistory.append(end_message)
+            conversation = Conversation(
+                userInfo=self.user, 
+                chatHistory=chatHistory, 
+                userAction=user_action,
+                locationId=self.location.id
+            )
             if isinstance(entity, Pokemon):
-                self.Pokemon_chatHistory[entity.id].append(end_message)
+                poke_info=dict(entity.poke_info)
+                param = PokeChat(pokeInfo=poke_info, conversation=conversation)
+                response = self.send_request("api/chat/poke", param)
             elif isinstance(entity, NPC):
-                self.NPC_chatHistory[entity.id].append(end_message)
+                npc_info=dict(entity.npc_info)
+                param = NpcChat(npcInfo=npc_info, conversation=conversation)
+                response = self.send_request("api/chat/npc", param)
+            response = response.json()
+            chatHistory = response.get("chatHistory")
+            self.NPC_chatHistory[entity.id] = chatHistory
             self.select_to_talk()
+        else:
+            print(f"Error user_action type {user_action.action} is unknown")
 
     def select_to_talk(self):
         print("누구와 대화하겠습니까?")

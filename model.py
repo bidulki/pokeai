@@ -6,6 +6,7 @@ class PokeInfo(BaseModel):
     id: int # 포켓몬 개체 고유번호
     dexNum: int # 포켓몬 도감번호
     hp: int # 체력 퍼센트
+    friendship: int # 친밀도 퍼센트
     status: Literal["NOR", "PSN", "BRN", "PAR", "SLP", "FRZ"] # 상태이상: 정상, 독, 화상, 마비, 잠듦, 얼음 
 
 # 사용자 정보
