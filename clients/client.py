@@ -133,10 +133,8 @@ class Client:
                 response = self.send_request("api/chat/poke", param)
                 response = response.json()
                 message = response.get("narration")
-                new_message1 = self.make_message("user", user_action.chat)
-                new_message2 = self.make_message("assistant", message)
-                self.Pokemon_chatHistory[entity.id].append(new_message1)
-                self.Pokemon_chatHistory[entity.id].append(new_message2)
+                chatHistory = response.get("chatHistory")
+                self.Pokemon_chatHistory[entity.id] = chatHistory
             elif isinstance(entity, NPC):
                 npc_info=dict(entity.npc_info)
                 param = NpcChat(npcInfo=npc_info, conversation=conversation)
@@ -144,10 +142,9 @@ class Client:
                 response = response.json()
                 message = response.get("message")
                 choices = response.get("choices")
-                new_message1 = self.make_message("user", user_action.chat)
-                new_message2 = self.make_message("assistant", message)
-                self.NPC_chatHistory[entity.id].append(new_message1)
-                self.NPC_chatHistory[entity.id].append(new_message2)
+                chatHistory = response.get("chatHistory")
+                self.NPC_chatHistory[entity.id] = chatHistory
+                
             print(f"{message}")
             if len(choices)!=0:
                 for i, choice in enumerate(choices):
@@ -199,12 +196,10 @@ class Client:
 
         print("-----------------------------------------------------------------------")
         print(f"{select.name}과 대화를 시작합니다.")
-        greet_message = self.make_message("system", f"{self.user.name}이 대화를 걸어왔다.")
         user_action = UserAction(action="chat")
         choices=[]
         if isinstance(select, Pokemon):
             chatHistory = self.Pokemon_chatHistory[select.id]
-            chatHistory.append(greet_message)
             conversation = Conversation(
                 userInfo=self.user,
                 chatHistory=chatHistory,
@@ -215,14 +210,11 @@ class Client:
             param = PokeChat(pokeInfo=poke_info, conversation=conversation)
             response = self.send_request("api/chat/poke", param)
             response = response.json()
-            message = response.get("narration")
-            new_message = self.make_message("assistant", message)
-            self.Pokemon_chatHistory[select.id].append(new_message)
-            self.Pokemon_chatHistory[select.id].append(greet_message)
+            chatHistory = response.get("chatHistory")
+            self.Pokemon_chatHistory[select.id] = chatHistory
             
         else:
             chatHistory = self.NPC_chatHistory[select.id]
-            chatHistory.append(greet_message)
             conversation = Conversation(
                 userInfo=self.user,
                 chatHistory=chatHistory,
@@ -235,9 +227,8 @@ class Client:
             response = response.json()
             message = response.get("message")
             choices = response.get("choices")
-            new_message = self.make_message("assistant", message)
-            self.NPC_chatHistory[select.id].append(greet_message)
-            self.NPC_chatHistory[select.id].append(new_message)
+            chatHistory = response.get("chatHistory")
+            self.Pokemon_chatHistory[select.id] = chatHistory
             
         print(f"{message}")
         if len(choices)!=0:

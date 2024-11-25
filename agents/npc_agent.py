@@ -18,14 +18,20 @@ class NPCAgent(Agent):
         response_json = {}
         response_json['message'] = output.message
         response_json['choices'] = output.choices
+        response_json['chatHistory'] = self.chat_history
         return response_json
     
     def __call__(self):
         if self.user_action.action == "quit":
+            end_message = self.make_message("system", f"{self.user.name}이/가 대화를 종료했다.")
+            self.chat_history.append(end_message)
             output = NpcChatOutput(message="", choices=[])
         elif self.user_action.action == "chat":
             user_action = self.user_action_message(self.name)
-            if user_action['content'] !=None:
+            if user_action['content']==None:
+                start_message = self.make_message("system", f"{self.user.name}이/가 대화를 걸어왔다.")
+                self.chat_history.append(start_message)
+            else:
                 self.chat_history.append(user_action)
             messages = self.chat_history
 
@@ -44,6 +50,8 @@ class NPCAgent(Agent):
             total_messages = self.make_total_messages(npc_chat_prompt, messages)
             print(total_messages)
             output = self.get_response(total_messages, NpcChatOutput)
+            output_message = self.make_message("assistant", output.message)
+            self.chat_history.append(output_message)
         response = self.make_response(output)
         return response
 

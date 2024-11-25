@@ -2,7 +2,6 @@ from pydantic import BaseModel
 from entity import Pokemon
 from agents import Agent
 from prompts import POKE_CHAT_PROMPT
-from typing import Literal
 
 class PokeChatOutput(BaseModel):
     narration: str
@@ -29,14 +28,21 @@ class PokeAgent(Agent):
     def make_response(self, output):
         response_json = {}
         response_json['narration'] = output.narration
+        response_json['chatHistory'] = self.chat_history
         return response_json
 
     def __call__(self):
         if self.user_action.action == "quit":
-            output = PokeChatOutput(naration="")
+            end_message = self.make_message("system", f"{self.user.name}이/가 대화를 종료했다.")
+            self.chat_history.append(end_message)
+            output = PokeChatOutput(narration="")
+            
         elif self.user_action.action == "chat":
             user_action = self.user_action_message(self.name)
-            if user_action['content']!=None:
+            if user_action['content']==None:
+                start_message = self.make_message("system", f"{self.user.name}이/가 대화를 걸어왔다.")
+                self.chat_history.append(start_message)
+            else:
                 self.chat_history.append(user_action)
             messages = self.chat_history
             
@@ -55,6 +61,8 @@ class PokeAgent(Agent):
             total_messages = self.make_total_messages(poke_chat_prompt, messages)
             print(total_messages)
             output = self.get_response(total_messages, PokeChatOutput)
+            output_message = self.make_message("assistant", output.narration)
+            self.chat_history.append(output_message)
 
         response = self.make_response(output)
         return response
