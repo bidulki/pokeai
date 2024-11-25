@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from entity import Pokemon
 from agents import Agent
 from prompts import POKE_CHAT_PROMPT
+from typing import Literal
 
 class PokeChatOutput(BaseModel):
     narration: str
@@ -32,14 +33,12 @@ class PokeAgent(Agent):
 
     def __call__(self):
         if self.user_action.action == "quit":
-            self.update_vectorDB()
             output = PokeChatOutput(naration="")
-        else:
+        elif self.user_action.action == "chat":
             user_action = self.user_action_message(self.name)
-            self.chat_history.append(user_action)
+            if user_action['content']!=None:
+                self.chat_history.append(user_action)
             messages = self.chat_history
-            # searched = self.search_vectorDB()
-            # messages.append(searched)
             
             if self.user.first_pokemon == None:
                 first_pokemon_info = f"{self.user.name}은 현재 데리고 다니는 포켓몬이 없다."

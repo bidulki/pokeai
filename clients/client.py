@@ -129,7 +129,6 @@ class Client:
             )
             if isinstance(entity, Pokemon):
                 poke_info=dict(entity.poke_info)
-                print(poke_info)
                 param = PokeChat(pokeInfo=poke_info, conversation=conversation)
                 response = self.send_request("api/chat/poke", param)
                 response = response.json()
@@ -140,7 +139,6 @@ class Client:
                 self.Pokemon_chatHistory[entity.id].append(new_message2)
             elif isinstance(entity, NPC):
                 npc_info=dict(entity.npc_info)
-                print(npc_info)
                 param = NpcChat(npcInfo=npc_info, conversation=conversation)
                 response = self.send_request("api/chat/npc", param)
                 response = response.json()
@@ -150,7 +148,7 @@ class Client:
                 new_message2 = self.make_message("assistant", message)
                 self.NPC_chatHistory[entity.id].append(new_message1)
                 self.NPC_chatHistory[entity.id].append(new_message2)
-            print(f"{message}")
+            print(f"{entity.name}: {message}")
             if len(choices)!=0:
                 for i, choice in enumerate(choices):
                     print(f"{i+1}: {choice}")
@@ -170,6 +168,12 @@ class Client:
             self.talk_with_entity(entity, chatHistory)
         else:
             print("-----------------------------------------------------------------------")
+            end_message = self.make_message("system", f"{self.user.name}이 대화를 그만두었다.")
+            chatHistory.append(end_message)
+            if isinstance(entity, Pokemon):
+                self.Pokemon_chatHistory[entity.id].append(end_message)
+            elif isinstance(entity, NPC):
+                self.NPC_chatHistory[entity.id].append(end_message)
             self.select_to_talk()
 
     def select_to_talk(self):
@@ -195,10 +199,49 @@ class Client:
 
         print("-----------------------------------------------------------------------")
         print(f"{select.name}과 대화를 시작합니다.")
+        greet_message = self.make_message("system", f"{self.user.name}이 대화를 걸어왔다.")
+        user_action = UserAction(action="chat")
         if isinstance(select, Pokemon):
             chatHistory = self.Pokemon_chatHistory[select.id]
+            chatHistory.append(greet_message)
+            conversation = Conversation(
+                userInfo=self.user,
+                chatHistory=chatHistory,
+                userAction=user_action,
+                locationId=self.location.id
+            )
+            poke_info = dict(select.poke_info)
+            param = PokeChat(pokeInfo=poke_info, conversation=conversation)
+            response = self.send_request("api/chat/poke", param)
+            response = response.json()
+            message = response.get("narration")
+            new_message = self.make_message("assistant", message)
+            self.Pokemon_chatHistory[select.id].append(new_message)
+            self.Pokemon_chatHistory[select.id].append(greet_message)
+            
         else:
             chatHistory = self.NPC_chatHistory[select.id]
+            chatHistory.append(greet_message)
+            conversation = Conversation(
+                userInfo=self.user,
+                chatHistory=chatHistory,
+                userAction=user_action,
+                locationId=self.location.id
+            )
+            npc_info=dict(select.npc_info)
+            param = NpcChat(npcInfo=npc_info, conversation=conversation)
+            response = self.send_request("api/chat/npc", param)
+            response = response.json()
+            message = response.get("message")
+            choices = response.get("choices")
+            new_message = self.make_message("assistant", message)
+            self.NPC_chatHistory[select.id].append(greet_message)
+            self.NPC_chatHistory[select.id].append(new_message)
+            
+        print(f"{select.name}: {message}")
+        if len(choices)!=0:
+            for i, choice in enumerate(choices):
+                print(f"{i+1}: {choice}")
         self.talk_with_entity(select, chatHistory)
 
     def start(self):
