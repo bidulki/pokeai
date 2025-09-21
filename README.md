@@ -11,7 +11,7 @@ cd games
 python main.py
 ```
 
-ToDo List  
+# ToDo List  
 - [x] 유저 데이터 로드, 저장
 - [x] 맵 데이터 로드, 저장
 - [x] 맵 이동, spot 조사
