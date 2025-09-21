@@ -1,0 +1,9 @@
+{
+	"name": "연막",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "연기나 먹물을 내뿜어 상대의 명중률을 떨어뜨린다."
+}

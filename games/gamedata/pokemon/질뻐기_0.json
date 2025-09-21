@@ -1,0 +1,14 @@
+{
+    "name": "질뻐기_0",
+    "map": "상록숲",
+    "pokedex": "질뻐기",
+    "level": 22,
+    "master": "독수",
+    "status": "정상",
+    "moves": ["단단해지기", "작아지기", "머드샷", "오물폭탄"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

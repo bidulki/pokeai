@@ -1,0 +1,9 @@
+{
+	"name": "폭풍",
+	"type": "비행",
+	"category": "특수",
+	"power": 110,
+	"accuracy": "70%",
+	"never_miss": false,
+	"description": "강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 혼란시킬 때가 있다."
+}

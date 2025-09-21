@@ -1,0 +1,9 @@
+{
+	"name": "노래하기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "55%",
+	"never_miss": false,
+	"description": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다."
+}

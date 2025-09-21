@@ -1,0 +1,9 @@
+{
+	"name": "스파크",
+	"type": "전기",
+	"category": "물리",
+	"power": 65,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "전기를 둘러 돌진하여 공격한다. 마비 상태로 만들 때가 있다."
+}

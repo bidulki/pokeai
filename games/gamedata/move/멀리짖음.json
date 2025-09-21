@@ -1,0 +1,9 @@
+{
+	"name": "멀리짖음",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "큰 소리로 짖고 기합을 높여 자신의 공격을 올린다."
+}

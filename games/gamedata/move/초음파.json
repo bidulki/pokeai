@@ -1,0 +1,9 @@
+{
+	"name": "초음파",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "55%",
+	"never_miss": false,
+	"description": "특수한 음파를 몸에서 발산하여 상대를 혼란 상태로 만든다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "번개펀치",
+	"type": "전기",
+	"category": "물리",
+	"power": 75,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다."
+}

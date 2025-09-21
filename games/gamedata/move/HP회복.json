@@ -1,0 +1,9 @@
+{
+	"name": "HP회복",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "깨물어부수기",
+	"type": "악",
+	"category": "물리",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날카로운 이빨로 상대를 깨물어 부숴서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+}

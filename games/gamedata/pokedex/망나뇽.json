@@ -1,0 +1,52 @@
+{
+	"id": 54,
+	"name": "망나뇽",
+	"category": "드래곤 포켓몬",
+	"description": "커다란 몸집으로 하늘을 난다. 지구를 약 16시간 만에 일주한다.",
+	"type": [
+		"드래곤",
+		"비행"
+	],
+	"ability": "정신력(풀이 죽지 않는다.)",
+	"height": 2.2,
+	"weight": 210,
+	"base_stat": {
+		"HP": 91,
+		"Attack": 134,
+		"Defense": 95,
+		"Special Attack": 100,
+		"Special Defense": 100,
+		"Speed": 80
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"회오리",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "전기자석파",
+		"6": "고속이동",
+		"10": "아쿠아테일",
+		"12": "드래곤다이브",
+		"15": "용의춤",
+		"18": "역린",
+		"20": "폭풍",
+		"24": "번개펀치",
+		"27": "신속"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 3,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 218,
+	"catch_rate": 45,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

@@ -1,0 +1,9 @@
+{
+	"name": "꽃잎댄스",
+	"type": "풀",
+	"category": "특수",
+	"power": 120,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "2-3턴 동안 꽃을 흩뿌려서 공격한다. 흩뿌린 뒤에는 혼란에 빠진다."
+}

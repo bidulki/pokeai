@@ -1,0 +1,14 @@
+{
+    "name": "이상해씨_0",
+    "map": "오박사연구소",
+    "pokedex": "이상해씨",
+    "level": 5,
+    "master": "오박사",
+    "status": "정상",
+    "moves": ["몸통박치기", "울음소리"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

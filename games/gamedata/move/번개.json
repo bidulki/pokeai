@@ -1,0 +1,9 @@
+{
+	"name": "번개",
+	"type": "전기",
+	"category": "특수",
+	"power": 110,
+	"accuracy": "70%",
+	"never_miss": false,
+	"description": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다."
+}

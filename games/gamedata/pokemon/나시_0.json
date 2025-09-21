@@ -1,0 +1,14 @@
+{
+    "name": "나시_0",
+    "map": "상록숲",
+    "pokedex": "나시",
+    "level": 23,
+    "master": "초련",
+    "status": "정상",
+    "moves": ["기가드레인", "염동력", "짓밟기", "광합성"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

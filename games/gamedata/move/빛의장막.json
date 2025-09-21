@@ -1,0 +1,9 @@
+{
+	"name": "빛의장막",
+	"type": "에스퍼",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "5턴 동안 이상한 장막으로 상대로부터 받는 특수공격의 데미지를 약하게 한다."
+}

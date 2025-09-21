@@ -1,0 +1,9 @@
+{
+	"name": "꼬리흔들기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "꼬리를 좌우로 귀엽게 흔들어 방심을 유도한다. 상대의 방어를 떨어뜨린다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "파동탄",
+	"type": "격투",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": true,
+	"description": "몸속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다."
+}

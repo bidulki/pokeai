@@ -1,0 +1,9 @@
+{
+	"name": "신통력",
+	"type": "에스퍼",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "보이지 않는 이상한 힘을 보내어 공격한다. 상대를 풀죽게 만들 때가 있다."
+}

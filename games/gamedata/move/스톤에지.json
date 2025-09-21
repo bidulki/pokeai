@@ -1,0 +1,9 @@
+{
+	"name": "스톤에지",
+	"type": "바위",
+	"category": "물리",
+	"power": 100,
+	"accuracy": "80%",
+	"never_miss": false,
+	"description": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞을 확률이 높다."
+}

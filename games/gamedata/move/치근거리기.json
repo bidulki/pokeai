@@ -1,0 +1,9 @@
+{
+	"name": "치근거리기",
+	"type": "페어리",
+	"category": "물리",
+	"power": 90,
+	"accuracy": "90%",
+	"never_miss": false,
+	"description": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다."
+}

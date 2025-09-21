@@ -1,0 +1,53 @@
+{
+	"id": 29,
+	"name": "우츠동",
+	"category": "파리잡이 포켓몬",
+	"description": "잎사귀 부분은 칼날이 되어 상대를 베어버린다. 입에서는 무엇이든 녹이는 액체를 뿜어낸다.",
+	"type": [
+		"풀",
+		"독"
+	],
+	"ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+	"height": 1,
+	"weight": 6.4,
+	"base_stat": {
+		"HP": 65,
+		"Attack": 90,
+		"Defense": 50,
+		"Special Attack": 85,
+		"Special Defense": 45,
+		"Speed": 55
+	},
+	"evolution": {
+		"type": "stone",
+		"stone": "리프의돌",
+		"next": "우츠보트"
+	},
+	"initial_move": [
+		"덩굴채찍"
+	],
+	"learn_move": {
+		"3": "성장",
+		"6": "수면가루",
+		"10": "독가루",
+		"12": "잎날가르기",
+		"15": "독찌르기",
+		"18": "파워휩",
+		"20": "달콤한향기",
+		"24": "리프스톰",
+		"27": "리프블레이드"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 2,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 151,
+	"catch_rate": 120,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

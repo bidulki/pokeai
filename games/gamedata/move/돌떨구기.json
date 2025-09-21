@@ -1,0 +1,9 @@
+{
+	"name": "돌떨구기",
+	"type": "바위",
+	"category": "물리",
+	"power": 50,
+	"accuracy": "90%",
+	"never_miss": false,
+	"description": "작은 바위를 들어올려 상대에게 내던져서 공격한다."
+}

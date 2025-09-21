@@ -1,0 +1,9 @@
+{
+	"name": "나비춤",
+	"type": "벌레",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": false,
+	"description": "신비롭고 아름다운 춤을 경쾌하게 춘다. 자신의 특수공격과 특수방어와 스피드를 올린다."
+}

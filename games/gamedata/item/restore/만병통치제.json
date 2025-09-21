@@ -1,0 +1,8 @@
+{
+    "name": "만병통치제",
+    "info": "스프레이식의 약. 포켓몬 1마리의 상태 이상을 모두 회복한다.",
+    "price": 600,
+    "restore": "0",
+    "recover": ["poison", "burn", "paralyze", "sleep", "freeze"]
+    
+}

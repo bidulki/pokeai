@@ -1,0 +1,51 @@
+{
+	"id": 40,
+	"name": "팬텀",
+	"category": "그림자 포켓몬",
+	"description": "산에서 조난하면 목숨을 빼앗기 위해 어둠 속에서 나타난다고 한다.",
+	"type": [
+		"고스트",
+		"독"
+	],
+	"ability": "부유(땅 타입 기술에 맞지 않는다.)",
+	"height": 1.5,
+	"weight": 40.5,
+	"base_stat": {
+		"HP": 60,
+		"Attack": 65,
+		"Defense": 60,
+		"Special Attack": 130,
+		"Special Defense": 75,
+		"Speed": 110
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"핥기"
+	],
+	"learn_move": {
+		"3": "최면술",
+		"6": "스모그",
+		"10": "섀도펀치",
+		"12": "번개펀치",
+		"15": "냉동펀치",
+		"18": "불꽃펀치",
+		"20": "오물폭탄",
+		"24": "악의파동",
+		"27": "섀도볼"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 3,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 190,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

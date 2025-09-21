@@ -1,0 +1,52 @@
+{
+	"id": 3,
+	"name": "이상해꽃",
+	"category": "씨앗 포켓몬",
+	"description": "꽃에서 황홀한 향기가 퍼져 나와 싸우는 자의 기분을 달래준다.",
+	"type": [
+		"풀",
+		"독"
+	],
+	"ability": "심록(HP가 ⅓ 이하일 때 풀 타입 기술의 위력이 1.5배가 된다)",
+	"height": 2.0,
+	"weight": 100.0,
+	"base_stat": {
+		"HP": 80,
+		"Attack": 82,
+		"Defense": 83,
+		"Special Attack": 100,
+		"Special Defense": 100,
+		"Speed": 80
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"울음소리"
+	],
+	"learn_move": {
+		"6": "덩굴채찍",
+		"8": "성장",
+		"10": "잎날가르기",
+		"12": "독가루",
+		"15": "수면가루",
+		"18": "달콤한향기",
+		"20": "씨폭탄",
+		"24": "돌진",
+		"27": "꽃잎댄스"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 2,
+		"Special Defense": 1,
+		"Speed": 0
+	},
+	"Base_EXP": 208,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

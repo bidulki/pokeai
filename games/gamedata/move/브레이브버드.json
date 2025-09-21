@@ -1,0 +1,9 @@
+{
+	"name": "브레이브버드",
+	"type": "비행",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다."
+}

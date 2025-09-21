@@ -1,0 +1,9 @@
+{
+	"name": "땅고르기",
+	"type": "땅",
+	"category": "물리",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "땅을 힘껏 밟아 자신의 주위에 있는 포켓몬을 공격한다. 상대의 스피드를 떨어뜨린다."
+}

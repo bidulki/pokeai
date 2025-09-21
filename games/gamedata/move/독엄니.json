@@ -1,0 +1,9 @@
+{
+	"name": "독엄니",
+	"type": "독",
+	"category": "물리",
+	"power": 50,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다."
+}

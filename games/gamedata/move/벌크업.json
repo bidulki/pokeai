@@ -1,0 +1,9 @@
+{
+	"name": "벌크업",
+	"type": "격투",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다."
+}

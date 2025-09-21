@@ -1,0 +1,9 @@
+{
+	"name": "섀도펀치",
+	"type": "고스트",
+	"category": "물리",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": true,
+	"description": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다."
+}

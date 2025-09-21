@@ -1,0 +1,9 @@
+{
+	"name": "망각술",
+	"type": "에스퍼",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "머리를 비워서 순간적으로 무언가를 잊어버림으로써 자신의 특수방어를 크게 올린다."
+}

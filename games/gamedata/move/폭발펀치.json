@@ -1,0 +1,9 @@
+{
+	"name": "폭발펀치",
+	"type": "격투",
+	"category": "물리",
+	"power": 100,
+	"accuracy": "50%",
+	"never_miss": false,
+	"description": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란 시킨다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "실뿜기",
+	"type": "벌레",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 떨어뜨린다."
+}

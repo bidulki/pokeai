@@ -1,0 +1,9 @@
+{
+	"name": "사이코커터",
+	"type": "에스퍼",
+	"category": "물리",
+	"power": 70,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "실체화시킨 마음의 칼날로 상대를 베어 가른다. 급소에 맞을 확률이 높다."
+}

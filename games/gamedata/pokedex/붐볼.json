@@ -1,0 +1,51 @@
+{
+	"id": 43,
+	"name": "붐볼",
+	"category": "볼 포켓몬",
+	"description": "약간에 자극에도 반응하여 폭발한다. 폭탄공이라는 별명이 있을 정도로 두려움의 대상이다.",
+	"type": [
+		"전기"
+	],
+	"ability": "방음(이 특성을 가진 포켓몬은 소리를 사용하는 기술의 영향을 전혀 받지 않는다.)",
+	"height": 1.2,
+	"weight": 66.6,
+	"base_stat": {
+		"HP": 60,
+		"Attack": 50,
+		"Defense": 70,
+		"Special Attack": 80,
+		"Special Defense": 80,
+		"Speed": 150
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"전기쇼크"
+	],
+	"learn_move": {
+		"3": "괴전파",
+		"6": "스파크",
+		"9": "싫은소리",
+		"12": "차지빔",
+		"15": "스피드스타",
+		"18": "자폭",
+		"21": "빛의장막",
+		"24": "방전",
+		"27": "대폭발"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 2
+	},
+	"Base_EXP": 150,
+	"catch_rate": 60,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

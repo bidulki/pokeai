@@ -1,0 +1,14 @@
+{
+    "name": "꼬부기_1",
+    "map": "상록숲",
+    "pokedex": "꼬부기",
+    "level": 8,
+    "master": "이슬",
+    "status": "정상",
+    "moves": ["몸통박치기", "꼬리흔들기", "물대포", "껍질에숨기"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

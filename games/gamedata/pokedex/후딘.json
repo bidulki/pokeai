@@ -1,0 +1,50 @@
+{
+	"id": 24,
+	"name": "후딘",
+	"category": "초능력 포켓몬",
+	"description": "물리 기술을 사용하길 꺼리는 대신 초능력을 자유자재로 구사해 상대를 쓰러뜨린다.",
+	"type": [
+		"에스퍼"
+	],
+	"ability": "싱크로(자신이 상태이상에 걸리면 상대도 같은 상태가 된다.)",
+	"height": 1.5,
+	"weight": 48,
+	"base_stat": {
+		"HP": 55,
+		"Attack": 50,
+		"Defense": 45,
+		"Special Attack": 135,
+		"Special Defense": 95,
+		"Speed": 120
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"염동력"
+	],
+	"learn_move": {
+		"3": "숟가락휘기",
+		"6": "최면술",
+		"10": "환상빔",
+		"12": "리플렉터",
+		"15": "그림자분신",
+		"18": "사이코쇼크",
+		"20": "HP회복",
+		"24": "사이코키네시스",
+		"27": "명상"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 3,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 145,
+	"catch_rate": 50,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

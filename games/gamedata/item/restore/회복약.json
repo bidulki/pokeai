@@ -1,0 +1,7 @@
+{
+    "name": "회복약",
+    "info": "포켓몬 1마리의 HP와 상태이상을 모두 회복한다.",
+    "price": 3000,
+    "restore": "max",
+    "recover": ["poison", "burn", "paralyze", "sleep", "freeze"]
+}

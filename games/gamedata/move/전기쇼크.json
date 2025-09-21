@@ -1,0 +1,9 @@
+{
+	"name": "전기쇼크",
+	"type": "전기",
+	"category": "특수",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다."
+}

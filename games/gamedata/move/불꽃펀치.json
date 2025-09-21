@@ -1,0 +1,9 @@
+{
+	"name": "불꽃펀치",
+	"type": "불꽃",
+	"category": "물리",
+	"power": 75,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태가 되는 경우가 있다."
+}

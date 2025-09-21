@@ -1,0 +1,14 @@
+{
+    "name": "아쿠스타_0",
+    "map": "상록숲",
+    "pokedex": "아쿠스타",
+    "level": 10,
+    "master": "이슬",
+    "status": "정상",
+    "moves": ["물대포", "고속스핀", "이상한빛", "단단해지기"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

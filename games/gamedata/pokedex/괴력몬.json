@@ -1,0 +1,51 @@
+{
+	"id": 27,
+	"name": "괴력몬",
+	"category": "괴력 포켓몬",
+	"description": "발달한 4개의 팔은 2초 동안 1000번의 펀치를 날릴 수 있다.",
+	"type": [
+		"격투"
+	],
+	"ability": "근성(상태이상일 때 공격이 1.5배로 올라간다.)",
+	"height": 1.6,
+	"weight": 130,
+	"base_stat": {
+		"HP": 90,
+		"Attack": 130,
+		"Defense": 80,
+		"Special Attack": 65,
+		"Special Defense": 85,
+		"Speed": 55
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"태권당수",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "기충전",
+		"6": "겁나는얼굴",
+		"10": "로킥",
+		"12": "불꽃펀치",
+		"15": "냉동펀치",
+		"18": "괴력",
+		"20": "벌크업",
+		"24": "폭발펀치",
+		"27": "크로스촙"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 3,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 193,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

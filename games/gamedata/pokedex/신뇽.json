@@ -1,0 +1,53 @@
+{
+	"id": 53,
+	"name": "신뇽",
+	"category": "드래곤 포켓몬",
+	"description": "바다나 호수 등에 산다고 한다. 날개는 없지만 가끔 하늘을 나는 모습이 목격된다.",
+	"type": [
+		"드래곤"
+	],
+	"ability": "탈피(매 턴 종료 시 30% 확률로 상태이상이 회복된다.)",
+	"height": 4,
+	"weight": 16.5,
+	"base_stat": {
+		"HP": 61,
+		"Attack": 84,
+		"Defense": 65,
+		"Special Attack": 70,
+		"Special Defense": 70,
+		"Speed": 70
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "망나뇽"
+	},
+	"initial_move": [
+		"회오리",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "전기자석파",
+		"6": "고속이동",
+		"10": "아쿠아테일",
+		"12": "드래곤다이브",
+		"15": "용의춤",
+		"18": "역린",
+		"20": "폭풍",
+		"24": "번개펀치",
+		"27": "신속"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 2,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 144,
+	"catch_rate": 45,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

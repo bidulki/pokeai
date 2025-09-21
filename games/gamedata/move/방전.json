@@ -1,0 +1,9 @@
+{
+	"name": "방전",
+	"type": "전기",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "눈부신 전격으로 주위에 있는 모두를 공격한다. 마비 상태로 만들 때가 있다."
+}

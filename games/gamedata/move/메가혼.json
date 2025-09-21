@@ -1,0 +1,9 @@
+{
+	"name": "메가혼",
+	"type": "벌레",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "85%",
+	"never_miss": false,
+	"description": "단단하고 훌륭한 뿔로 마음껏 상대를 꿰찔러서 공격한다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "독가루",
+	"type": "독",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "75%",
+	"never_miss": false,
+	"description": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다."
+}

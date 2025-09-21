@@ -1,0 +1,9 @@
+{
+	"name": "물의파동",
+	"type": "물",
+	"category": "특수",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란 시킬 때가 있다."
+}

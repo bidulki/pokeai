@@ -1,0 +1,9 @@
+{
+	"name": "파워휩",
+	"type": "풀",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "85%",
+	"never_miss": false,
+	"description": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다."
+}

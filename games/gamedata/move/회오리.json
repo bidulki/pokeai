@@ -1,0 +1,9 @@
+{
+	"name": "회오리",
+	"type": "드래곤",
+	"category": "특수",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다."
+}

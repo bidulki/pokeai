@@ -1,0 +1,9 @@
+{
+	"name": "괴력",
+	"type": "노말",
+	"category": "물리",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "혼신의 힘으로 상대를 세게 때려서 공격한다."
+}

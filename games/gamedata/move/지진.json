@@ -1,0 +1,9 @@
+{
+	"name": "지진",
+	"type": "땅",
+	"category": "물리",
+	"power": 100,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "지진의 충격으로 주위에 있는 모든 것을 공격한다."
+}

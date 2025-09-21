@@ -1,0 +1,51 @@
+{
+	"id": 6,
+	"name": "리자몽",
+	"category": "화염 포켓몬",
+	"description": "지상 1400m까지 날개를 사용해 날 수 있다. 고열의 불꽃을 내뿜는다.",
+	"type": [
+		"불꽃"
+	],
+	"ability": "맹화(HP가 ⅓ 이하일 때 불꽃 타입 기술의 위력이 1.5배가 된다.)",
+	"height": 1.7,
+	"weight": 90.5,
+	"base_stat": {
+		"HP": 78,
+		"Attack": 84,
+		"Defense": 78,
+		"Special Attack": 109,
+		"Special Defense": 85,
+		"Speed": 100
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"할퀴기",
+		"울음소리"
+	],
+	"learn_move": {
+		"6": "불꽃세례",
+		"8": "연막",
+		"10": "용의숨결",
+		"12": "불꽃엄니",
+		"15": "베어가르기",
+		"18": "겁나는얼굴",
+		"20": "화염방사",
+		"24": "에어슬래시",
+		"27": "플레어드라이브"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 3,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 209,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

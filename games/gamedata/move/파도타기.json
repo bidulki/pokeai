@@ -1,0 +1,9 @@
+{
+	"name": "파도타기",
+	"type": "물",
+	"category": "특수",
+	"power": 90,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "큰 파도로 주위에 있는 모든 것을 공격한다. 물 위도 헤엄쳐서 나아간다."
+}

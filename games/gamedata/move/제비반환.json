@@ -1,0 +1,9 @@
+{
+	"name": "제비반환",
+	"type": "비행",
+	"category": "물리",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": true,
+	"description": "재빠른 움직임으로 상대를 농락해 벤다. 공격은 반드시 명중한다."
+}

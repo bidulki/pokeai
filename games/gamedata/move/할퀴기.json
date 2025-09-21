@@ -1,0 +1,9 @@
+{
+	"name": "할퀴기",
+	"type": "노말",
+	"category": "물리",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다."
+}

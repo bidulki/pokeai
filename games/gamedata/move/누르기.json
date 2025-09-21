@@ -1,0 +1,9 @@
+{
+	"name": "누르기",
+	"type": "노말",
+	"category": "물리",
+	"power": 85,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "몸 전체로 상대를 덮쳐눌러 공격한다. 마비 상태로 만들 때가 있다."
+}

@@ -1,0 +1,52 @@
+{
+	"id": 41,
+	"name": "롱스톤",
+	"category": "돌뱀 포켓몬",
+	"description": "평상시에는 땅속에 살고 있다. 땅속을 시속 80km로 파면서 먹이를 찾는다.",
+	"type": [
+		"바위",
+		"땅"
+	],
+	"ability": "옹골참(일격기가 통하지 않으며 체력이 가득 찬 상태에서 일격에 쓰러지지 않는다.)",
+	"height": 8.8,
+	"weight": 210,
+	"base_stat": {
+		"HP": 35,
+		"Attack": 45,
+		"Defense": 160,
+		"Special Attack": 30,
+		"Special Defense": 45,
+		"Speed": 70
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"단단해지기"
+	],
+	"learn_move": {
+		"3": "돌떨구기",
+		"6": "록커트",
+		"9": "용의숨결",
+		"12": "싫은소리",
+		"15": "스톤샤워",
+		"18": "지진",
+		"21": "아이언테일",
+		"24": "스톤에지",
+		"27": "이판사판태클"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 1,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 108,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

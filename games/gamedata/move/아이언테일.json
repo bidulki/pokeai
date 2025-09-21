@@ -1,0 +1,9 @@
+{
+	"name": "아이언테일",
+	"type": "강철",
+	"category": "물리",
+	"power": 100,
+	"accuracy": "75%",
+	"never_miss": false,
+	"description": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다."
+}

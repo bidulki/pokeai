@@ -1,0 +1,9 @@
+{
+	"name": "모래뿌리기",
+	"type": "땅",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다."
+}

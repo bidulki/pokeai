@@ -1,0 +1,9 @@
+{
+	"name": "웅크리기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "몸을 둥글게 웅크려서 자신의 방어를 올린다."
+}

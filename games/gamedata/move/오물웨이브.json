@@ -1,0 +1,9 @@
+{
+	"name": "오물웨이브",
+	"type": "독",
+	"category": "특수",
+	"power": 95,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다."
+}

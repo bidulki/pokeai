@@ -1,0 +1,9 @@
+{
+	"name": "진흙뿌리기",
+	"type": "땅",
+	"category": "특수",
+	"power": 20,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다."
+}

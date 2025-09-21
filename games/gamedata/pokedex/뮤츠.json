@@ -1,0 +1,51 @@
+{
+	"id": 55,
+	"name": "뮤츠",
+	"category": "유전자 포켓몬",
+	"description": "연구를 위해 유전자를 점점 조합한 결과, 난폭한 포켓몬이 되어 버렸다.",
+	"type": [
+		"에스퍼"
+	],
+	"ability": "프레셔(자신에게 기술을 쓴 포켓몬의 기술 PP가 1씩 더 소모된다.)",
+	"height": 2.0,
+	"weight": 122.0,
+	"base_stat": {
+		"HP": 106,
+		"Attack": 110,
+		"Defense": 90,
+		"Special Attack": 154,
+		"Special Defense": 90,
+		"Speed": 130
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"염동력",
+		"스피드스타"
+	],
+	"learn_move": {
+		"3": "원시의힘",
+		"6": "사이코커터",
+		"9": "망각술",
+		"12": "파동탄",
+		"15": "사이코키네시스",
+		"18": "HP회복",
+		"21": "섀도볼",
+		"24": "명상",
+		"27": "사이코브레이크"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 3,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 220,
+	"catch_rate": 3,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

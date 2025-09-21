@@ -1,0 +1,14 @@
+{
+    "name": "롱스톤_1",
+    "map": "상록숲",
+    "pokedex": "롱스톤",
+    "level": 27,
+    "master": "비주기",
+    "status": "정상",
+    "moves": ["이판사판태클", "스톤샤워", "아이언테일", "지진"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

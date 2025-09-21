@@ -1,0 +1,9 @@
+{
+	"name": "씨폭탄",
+	"type": "풀",
+	"category": "물리",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "단단한 껍질을 가지고 있는 큰 씨앗을 위에서 힘껏 내던져 상대를 공격한다."
+}

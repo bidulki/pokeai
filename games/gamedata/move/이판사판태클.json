@@ -1,0 +1,9 @@
+{
+	"name": "이판사판태클",
+	"type": "노말",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "목숨을 걸고 상대에게 돌진 공격을 한다. 자신도 상당한 데미지를 입는다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "껍질에숨기",
+	"type": "물",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "껍질에 숨어 몸을 보호하여 자신의 방어를 올린다."
+}

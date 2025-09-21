@@ -1,0 +1,53 @@
+{
+	"id": 39,
+	"name": "고우스트",
+	"category": "가스 포켓몬",
+	"description": "어둠 속에서 아무도 없는데도 누군가가 보고 있다는 느낌이 들면그곳에 고우스트가 있는 것이다.",
+	"type": [
+		"고스트",
+		"독"
+	],
+	"ability": "부유(땅 타입 기술에 맞지 않는다.)",
+	"height": 1.6,
+	"weight": 90,
+	"base_stat": {
+		"HP": 45,
+		"Attack": 50,
+		"Defense": 45,
+		"Special Attack": 115,
+		"Special Defense": 55,
+		"Speed": 95
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "팬텀"
+	},
+	"initial_move": [
+		"핥기"
+	],
+	"learn_move": {
+		"3": "최면술",
+		"6": "스모그",
+		"10": "섀도펀치",
+		"12": "번개펀치",
+		"15": "냉동펀치",
+		"18": "불꽃펀치",
+		"20": "오물폭탄",
+		"24": "악의파동",
+		"27": "섀도볼"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 2,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 126,
+	"catch_rate": 90,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

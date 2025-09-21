@@ -1,0 +1,53 @@
+{
+	"id": 42,
+	"name": "찌리리공",
+	"category": "볼 포켓몬",
+	"description": "정체불명의 생물. 싫은소리를 내거나 갑자기 자폭하는 경우도 있다고 한다.",
+	"type": [
+		"전기"
+	],
+	"ability": "방음(이 특성을 가진 포켓몬은 소리를 사용하는 기술의 영향을 전혀 받지 않는다.)",
+	"height": 0.5,
+	"weight": 10.4,
+	"base_stat": {
+		"HP": 40,
+		"Attack": 30,
+		"Defense": 50,
+		"Special Attack": 55,
+		"Special Defense": 55,
+		"Speed": 100
+	},
+	"evolution": {
+		"type": "level",
+		"level": 15,
+		"next": "붐볼"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"전기쇼크"
+	],
+	"learn_move": {
+		"3": "괴전파",
+		"6": "스파크",
+		"9": "싫은소리",
+		"12": "차지빔",
+		"15": "스피드스타",
+		"18": "자폭",
+		"21": "빛의장막",
+		"24": "방전",
+		"27": "대폭발"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 1
+	},
+	"Base_EXP": 103,
+	"catch_rate": 190,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

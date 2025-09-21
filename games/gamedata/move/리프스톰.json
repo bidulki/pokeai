@@ -1,0 +1,9 @@
+{
+	"name": "리프스톰",
+	"type": "풀",
+	"category": "특수",
+	"power": 130,
+	"accuracy": "90%",
+	"never_miss": false,
+	"description": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다."
+}

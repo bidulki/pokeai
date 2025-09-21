@@ -1,0 +1,9 @@
+{
+	"name": "독찌르기",
+	"type": "독",
+	"category": "물리",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다."
+}

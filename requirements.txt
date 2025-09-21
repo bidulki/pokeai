@@ -1,0 +1,10 @@
+fastapi[standard]
+uvicorn
+pydantic
+pydantic-settings
+langchain
+langchain-community
+openai
+anthropic
+google-generativeai
+requests

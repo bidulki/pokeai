@@ -1,0 +1,9 @@
+{
+	"name": "짓밟기",
+	"type": "노말",
+	"category": "물리",
+	"power": 65,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀이 죽게 할 때가 있다."
+}

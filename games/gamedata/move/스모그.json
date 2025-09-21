@@ -1,0 +1,9 @@
+{
+	"name": "스모그",
+	"type": "독",
+	"category": "특수",
+	"power": 30,
+	"accuracy": "70%",
+	"never_miss": false,
+	"description": "더러운 가스를 상대에게 내뿜어 공격한다. 독 상태로 만들 때가 있다."
+}

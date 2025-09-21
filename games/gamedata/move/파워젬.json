@@ -1,0 +1,9 @@
+{
+	"name": "파워젬",
+	"type": "바위",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "보석처럼 반짝이는 빛을 발사하여 상대를 공격한다."
+}

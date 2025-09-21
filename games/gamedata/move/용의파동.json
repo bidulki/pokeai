@@ -1,0 +1,9 @@
+{
+	"name": "용의파동",
+	"type": "드래곤",
+	"category": "특수",
+	"power": 85,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "큰 입으로 충격파를 일으켜서 상대를 공격한다."
+}

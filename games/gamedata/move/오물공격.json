@@ -1,0 +1,9 @@
+{
+	"name": "오물공격",
+	"type": "독",
+	"category": "특수",
+	"power": 65,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다."
+}

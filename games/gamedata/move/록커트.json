@@ -1,0 +1,9 @@
+{
+	"name": "록커트",
+	"type": "바위",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": false,
+	"description": "몸을 닦아 공기의 저항을 적게 한다. 스피드를 크게 올릴 수 있다."
+}

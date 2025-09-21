@@ -1,0 +1,9 @@
+{
+	"name": "사이코키네시스",
+	"type": "에스퍼",
+	"category": "특수",
+	"power": 90,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+}

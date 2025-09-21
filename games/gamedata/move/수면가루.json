@@ -1,0 +1,9 @@
+{
+	"name": "수면가루",
+	"type": "풀",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "75%",
+	"never_miss": false,
+	"description": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다."
+}

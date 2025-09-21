@@ -1,0 +1,9 @@
+{
+	"name": "암해머",
+	"type": "격투",
+	"category": "물리",
+	"power": 90,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다."
+}

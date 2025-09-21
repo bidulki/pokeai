@@ -1,0 +1,53 @@
+{
+	"id": 5,
+	"name": "리자드",
+	"category": "화염 포켓몬",
+	"description": "꼬리를 휘둘러 상대를 쓰러트리고 날카로운 발톱으로 갈기갈기 찢어버린다.",
+	"type": [
+		"불꽃"
+	],
+	"ability": "맹화(HP가 ⅓ 이하일 때 불꽃 타입 기술의 위력이 1.5배가 된다.)",
+	"height": 1.1,
+	"weight": 19.0,
+	"base_stat": {
+		"HP": 58,
+		"Attack": 64,
+		"Defense": 58,
+		"Special Attack": 80,
+		"Special Defense": 65,
+		"Speed": 80
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "리자몽"
+	},
+	"initial_move": [
+		"할퀴기",
+		"울음소리"
+	],
+	"learn_move": {
+		"6": "불꽃세례",
+		"8": "연막",
+		"10": "용의숨결",
+		"12": "불꽃엄니",
+		"15": "베어가르기",
+		"18": "겁나는얼굴",
+		"20": "화염방사",
+		"24": "에어슬래시",
+		"27": "플레어드라이브"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 1,
+		"Special Defense": 0,
+		"Speed": 1
+	},
+	"Base_EXP": 142,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

@@ -1,0 +1,53 @@
+{
+	"id": 10,
+	"name": "캐터피",
+	"category": "잎벌레 포켓몬",
+	"description": "녹색 피부로 덮여 있다. 탈피해서 성장하면 실을 둘러서 번데기로 변한다.",
+	"type": [
+		"벌레"
+	],
+	"ability": "인분(공격 기술의 추가효과를 무시한다.)",
+	"height": 0.3,
+	"weight": 2.9,
+	"base_stat": {
+		"HP": 45,
+		"Attack": 30,
+		"Defense": 35,
+		"Special Attack": 20,
+		"Special Defense": 20,
+		"Speed": 45
+	},
+	"evolution": {
+		"type": "level",
+		"level": 7,
+		"next": "단데기"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"실뿜기"
+	],
+	"learn_move": {
+		"5": "벌레먹기",
+		"7": "단단해지기",
+		"10": "바람일으키기",
+		"12": "저리가루",
+		"15": "환상빔",
+		"18": "수면가루",
+		"20": "에어슬래시",
+		"24": "벌레의야단법석",
+		"27": "나비춤"
+	},
+	"EV": {
+		"HP": 1,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 53,
+	"catch_rate": 255,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

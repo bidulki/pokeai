@@ -1,0 +1,9 @@
+{
+	"name": "염동력",
+	"type": "에스퍼",
+	"category": "특수",
+	"power": 50,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란 시킬 때가 있다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "단단해지기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다."
+}

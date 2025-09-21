@@ -1,0 +1,9 @@
+{
+	"name": "덩굴채찍",
+	"type": "풀",
+	"category": "물리",
+	"power": 45,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다."
+}

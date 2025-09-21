@@ -1,0 +1,14 @@
+{
+    "name": "잠만보_0",
+    "map": "상록숲",
+    "pokedex": "잠만보",
+    "level": 30,
+    "master": null,
+    "status": "정상",
+    "moves": ["누르기", "10만마력", "암해머", "깨물어부수기"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

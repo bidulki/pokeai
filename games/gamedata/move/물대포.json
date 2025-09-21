@@ -1,0 +1,9 @@
+{
+	"name": "물대포",
+	"type": "물",
+	"category": "특수",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "물을 기세 좋게 상대에게 발사하여 공격한다."
+}

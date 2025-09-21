@@ -1,0 +1,9 @@
+{
+	"name": "몸통박치기",
+	"type": "노말",
+	"category": "물리",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "상대를 향해서 몸 전체를 부딪쳐가며 공격한다."
+}

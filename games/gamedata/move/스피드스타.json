@@ -1,0 +1,9 @@
+{
+	"name": "스피드스타",
+	"type": "노말",
+	"category": "특수",
+	"power": 60,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "별 모양의 빛을 발사해서 상대를 공격한다. 공격은 반드시 명중한다."
+}

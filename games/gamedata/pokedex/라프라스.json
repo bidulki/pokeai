@@ -1,0 +1,52 @@
+{
+	"id": 50,
+	"name": "라프라스",
+	"category": "탈것 포켓몬",
+	"description": "사람 말을 이해하는 높은 지능을 가지고 있다. 사람을 태우고 바다 건너는 것을 좋아한다.",
+	"type": [
+		"물",
+		"얼음"
+	],
+	"ability": "저수(물 공격을 무효화하고, 전체 체력의 1/4만큼 체력을 회복한다.)",
+	"height": 2.5,
+	"weight": 220.2,
+	"base_stat": {
+		"HP": 130,
+		"Attack": 85,
+		"Defense": 80,
+		"Special Attack": 85,
+		"Special Defense": 95,
+		"Speed": 60
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"물대포",
+		"울음소리"
+	],
+	"learn_move": {
+		"3": "노래하기",
+		"6": "얼음뭉치",
+		"9": "이상한빛",
+		"12": "물의파동",
+		"15": "냉동빔",
+		"18": "누르기",
+		"21": "용의파동",
+		"24": "눈보라",
+		"27": "하이드로펌프"
+	},
+	"EV": {
+		"HP": 2,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 219,
+	"catch_rate": 45,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

@@ -1,0 +1,9 @@
+{
+	"name": "자폭",
+	"type": "노말",
+	"category": "물리",
+	"power": 200,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다."
+}

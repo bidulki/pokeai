@@ -1,0 +1,14 @@
+{
+    "name": "뮤츠_0",
+    "map": "상록숲",
+    "pokedex": "뮤츠",
+    "level": 30,
+    "master": null,
+    "status": "정상",
+    "moves": ["사이코브레이크", "섀도볼", "명상", "파동탄"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

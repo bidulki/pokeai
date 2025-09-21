@@ -1,0 +1,9 @@
+{
+	"name": "핥기",
+	"type": "고스트",
+	"category": "물리",
+	"power": 30,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다."
+}

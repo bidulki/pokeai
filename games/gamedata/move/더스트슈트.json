@@ -1,0 +1,9 @@
+{
+	"name": "더스트슈트",
+	"type": "독",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "80%",
+	"never_miss": false,
+	"description": "더러운 쓰레기를 상대에게 부딪쳐서 공격한다. 독 상태로 만들 때가 있다."
+}

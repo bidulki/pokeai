@@ -1,0 +1,14 @@
+{
+    "name": "후딘_0",
+    "map": "상록숲",
+    "pokedex": "후딘",
+    "level": 25,
+    "master": "초련",
+    "status": "정상",
+    "moves": ["사이코키네시스", "사이코쇼크", "그림자분신", "최면술"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "리자드_0",
+    "map": "상록숲",
+    "pokedex": "리자드",
+    "level": 17,
+    "master": "강연",
+    "status": "정상",
+    "moves": ["베어가르기", "불꽃엄니", "연막", "용의숨결"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

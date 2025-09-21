@@ -1,0 +1,9 @@
+{
+	"name": "뿔찌르기",
+	"type": "노말",
+	"category": "물리",
+	"power": 65,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날카롭고 뾰족한 뿔로 상대를 공격한다."
+}

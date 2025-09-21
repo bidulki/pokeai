@@ -1,0 +1,9 @@
+{
+	"name": "잎날가르기",
+	"type": "풀",
+	"category": "물리",
+	"power": 55,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "잎사귀를 날려 상대를 베어 공격한다. 급소에 맞을 확률이 높다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "성장",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "몸을 일시에 크게 성장시켜 자신의 공격과 특수공격을 올린다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "괴전파",
+	"type": "전기",
+	"category": "변화",
+	"power": 0,
+	"accuracy": 100,
+	"never_miss": false,
+	"description": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 2랭크 떨어뜨린다."
+}

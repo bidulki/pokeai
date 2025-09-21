@@ -1,0 +1,51 @@
+{
+	"id": 15,
+	"name": "피죤투",
+	"category": "1.5m",
+	"description": "아름다운 날개를 펼쳐 상대를 위협한다. 마하 2로 하늘을 날아다닌다.",
+	"type": [
+		"노말",
+		"비행"
+	],
+	"ability": "날카로운눈(명중률이 떨어지지 않는다. 상대의 회피율을 무시한다.)",
+	"height": 39.5,
+	"weight": 45,
+	"base_stat": {
+		"HP": 83,
+		"Attack": 80,
+		"Defense": 75,
+		"Special Attack": 70,
+		"Special Defense": 70,
+		"Speed": 101
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기"
+	],
+	"learn_move": {
+		"3": "모래뿌리기",
+		"6": "바람일으키기",
+		"10": "전광석화",
+		"12": "제비반환",
+		"15": "깃털댄스",
+		"18": "고속이동",
+		"20": "폭풍",
+		"24": "에어슬래시",
+		"27": "브레이브버드"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 3
+	},
+	"Base_EXP": 172,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

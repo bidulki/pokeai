@@ -1,0 +1,9 @@
+{
+	"name": "대폭발",
+	"type": "노말",
+	"category": "물리",
+	"power": 250,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "커다란 폭발로 주위에 있는 모든 것을 공격한다. 사용한 다음 기절한다."
+}

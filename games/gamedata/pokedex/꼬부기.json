@@ -1,0 +1,53 @@
+{
+	"id": 7,
+	"name": "꼬부기",
+	"category": "꼬마거북 포켓몬",
+	"description": "기다란 목을 등껍질 속에 감춘 다음 기세 좋게 물대포를 발사한다.",
+	"type": [
+		"물"
+	],
+	"ability": "급류(남은 HP가 ⅓ 이하일 때 물 타입 기술의 위력이 1.5배로 증가한다.)",
+	"height": 0.5,
+	"weight": 9.0,
+	"base_stat": {
+		"HP": 44,
+		"Attack": 48,
+		"Defense": 65,
+		"Special Attack": 50,
+		"Special Defense": 64,
+		"Speed": 43
+	},
+	"evolution": {
+		"type": "level",
+		"level": 10,
+		"next": "어니부기"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"꼬리흔들기"
+	],
+	"learn_move": {
+		"6": "물대포",
+		"8": "껍질에숨기",
+		"10": "고속스핀",
+		"12": "물의파동",
+		"15": "물기",
+		"18": "껍질깨기",
+		"20": "아쿠아테일",
+		"24": "철벽",
+		"27": "하이드로펌프"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 1,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 66,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

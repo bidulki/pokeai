@@ -1,0 +1,9 @@
+{
+	"name": "독가스",
+	"type": "독",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "90%",
+	"never_miss": false,
+	"description": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다."
+}

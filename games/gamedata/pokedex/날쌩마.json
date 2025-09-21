@@ -1,0 +1,51 @@
+{
+	"id": 35,
+	"name": "날쌩마",
+	"category": "불의 말 포켓몬",
+	"description": "시속은 최고 240km. 활활 타면서 신칸센과 똑같은 스피드로 앞지른다.",
+	"type": [
+		"불꽃"
+	],
+	"ability": "도주(배틀에서 반드시 도주할 수 있게 된다. (상대의 특성이나 기술에 의한 봉쇄는 해당 안됨.))",
+	"height": 1.7,
+	"weight": 95,
+	"base_stat": {
+		"HP": 65,
+		"Attack": 100,
+		"Defense": 70,
+		"Special Attack": 80,
+		"Special Defense": 80,
+		"Speed": 105
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"울음소리"
+	],
+	"learn_move": {
+		"3": "불꽃세례",
+		"6": "전광석화",
+		"9": "니트로차지",
+		"12": "고속이동",
+		"15": "짓밟기",
+		"18": "스마트혼",
+		"21": "독찌르기",
+		"24": "메가혼",
+		"27": "플레어드라이브"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 2
+	},
+	"Base_EXP": 192,
+	"catch_rate": 60,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

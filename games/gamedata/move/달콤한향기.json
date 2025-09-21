@@ -1,0 +1,9 @@
+{
+	"name": "달콤한향기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "향기로 상대의 회피율을 크게 떨어뜨린다. 풀밭 등에서 쓰면 포켓몬이 다가온다."
+}

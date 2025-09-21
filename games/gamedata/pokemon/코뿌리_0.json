@@ -1,0 +1,14 @@
+{
+    "name": "코뿌리_0",
+    "map": "상록숲",
+    "pokedex": "코뿌리",
+    "level": 27,
+    "master": "비주기",
+    "status": "정상",
+    "moves": ["메가혼", "암해머", "드릴라이너", "스톤에지"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

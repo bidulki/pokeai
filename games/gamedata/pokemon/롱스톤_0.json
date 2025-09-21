@@ -1,0 +1,14 @@
+{
+    "name": "롱스톤_0",
+    "map": "상록숲",
+    "pokedex": "롱스톤",
+    "level": 5,
+    "master": "웅",
+    "status": "정상",
+    "moves": ["몸통박치기", "단단해지기", "돌떨구기", "록커트"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

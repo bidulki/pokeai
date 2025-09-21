@@ -1,0 +1,9 @@
+{
+	"name": "냉동빔",
+	"type": "얼음",
+	"category": "특수",
+	"power": 90,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다."
+}

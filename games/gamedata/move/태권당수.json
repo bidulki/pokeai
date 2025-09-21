@@ -1,0 +1,9 @@
+{
+	"name": "태권당수",
+	"type": "격투",
+	"category": "물리",
+	"power": 50,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞을 확률이 높다."
+}

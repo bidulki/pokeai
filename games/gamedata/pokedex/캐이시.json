@@ -1,0 +1,52 @@
+{
+	"id": 22,
+	"name": "캐이시",
+	"category": "초능력 포켓몬",
+	"description": "하루에 18시간은 자고 있다. 자는 동안에도 다양한 초능력을 사용한다.",
+	"type": [
+		"에스퍼"
+	],
+	"ability": "싱크로(자신이 상태이상에 걸리면 상대도 같은 상태가 된다.)",
+	"height": 0.9,
+	"weight": 19.5,
+	"base_stat": {
+		"HP": 25,
+		"Attack": 20,
+		"Defense": 15,
+		"Special Attack": 105,
+		"Special Defense": 55,
+		"Speed": 90
+	},
+	"evolution": {
+		"type": "level",
+		"level": 10,
+		"next": "윤겔라"
+	},
+	"initial_move": [
+		"염동력"
+	],
+	"learn_move": {
+		"3": "숟가락휘기",
+		"6": "최면술",
+		"10": "환상빔",
+		"12": "리플렉터",
+		"15": "그림자분신",
+		"18": "사이코쇼크",
+		"20": "HP회복",
+		"24": "사이코키네시스",
+		"27": "명상"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 1,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 75,
+	"catch_rate": 200,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

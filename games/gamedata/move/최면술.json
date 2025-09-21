@@ -1,0 +1,9 @@
+{
+	"name": "최면술",
+	"type": "에스퍼",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "60%",
+	"never_miss": false,
+	"description": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다."
+}

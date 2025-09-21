@@ -1,0 +1,51 @@
+{
+	"id": 17,
+	"name": "라이츄",
+	"category": "쥐 포켓몬",
+	"description": "전격은 10만볼트에 이르기도 해서 잘못 만지면 인도 코끼리라도 기절한다.",
+	"type": [
+		"전기"
+	],
+	"ability": "정전기(접촉한 상대를 30% 확률로 마비시킨다.)",
+	"height": 0.8,
+	"weight": 30.0,
+	"base_stat": {
+		"HP": 60,
+		"Attack": 90,
+		"Defense": 55,
+		"Special Attack": 90,
+		"Special Defense": 80,
+		"Speed": 110
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"전기쇼크",
+		"울음소리"
+	],
+	"learn_move": {
+		"3": "꼬리흔들기",
+		"6": "전광석화",
+		"9": "볼부비부비",
+		"12": "그림자분신",
+		"15": "고속이동",
+		"18": "아이언테일",
+		"21": "10만볼트",
+		"24": "번개",
+		"27": "볼트태클"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 3
+	},
+	"Base_EXP": 122,
+	"catch_rate": 75,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

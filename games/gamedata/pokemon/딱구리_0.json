@@ -1,0 +1,14 @@
+{
+    "name": "딱구리_0",
+    "map": "상록숲",
+    "pokedex": "딱구리",
+    "level": 27,
+    "master": "비주기",
+    "status": "정상",
+    "moves": ["땅고르기", "대폭발", "지진", "스톤에지"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

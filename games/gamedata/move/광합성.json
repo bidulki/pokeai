@@ -1,0 +1,9 @@
+{
+	"name": "광합성",
+	"type": "풀",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다."
+}

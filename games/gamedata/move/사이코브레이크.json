@@ -1,0 +1,9 @@
+{
+	"name": "사이코브레이크",
+	"type": "에스퍼",
+	"category": "특수",
+	"power": 100,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다."
+}

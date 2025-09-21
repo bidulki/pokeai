@@ -1,0 +1,14 @@
+{
+    "name": "찌리리공_0",
+    "map": "상록숲",
+    "pokedex": "찌리리공",
+    "level": 11,
+    "master": "마티스",
+    "status": "정상",
+    "moves": ["몸통박치기", "괴전파", "싫은소리", "스파크"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

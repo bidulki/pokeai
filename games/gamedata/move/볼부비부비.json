@@ -1,0 +1,9 @@
+{
+	"name": "볼부비부비",
+	"type": "전기",
+	"category": "물리",
+	"power": 20,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "이상한빛",
+	"type": "고스트",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "이상한 빛을 상대에게 비춰 혼란시킨다. 상대를 혼란 상태로 만든다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "니트로차지",
+	"type": "불꽃",
+	"category": "물리",
+	"power": 50,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다."
+}

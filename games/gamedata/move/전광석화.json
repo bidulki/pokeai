@@ -1,0 +1,9 @@
+{
+	"name": "전광석화",
+	"type": "노말",
+	"category": "물리",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제 공격할 수 있다."
+}

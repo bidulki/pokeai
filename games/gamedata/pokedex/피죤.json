@@ -1,0 +1,53 @@
+{
+	"id": 14,
+	"name": "피죤",
+	"category": "새 포켓몬",
+	"description": "발톱이 발달해 있다. 먹이인 아라리를 잡아 100km 떨어져 있는 둥지까지 나른다.",
+	"type": [
+		"노말",
+		"비행"
+	],
+	"ability": "날카로운눈(명중률이 떨어지지 않는다. 상대의 회피율을 무시한다.)",
+	"height": 1.1,
+	"weight": 30,
+	"base_stat": {
+		"HP": 63,
+		"Attack": 60,
+		"Defense": 55,
+		"Special Attack": 50,
+		"Special Defense": 50,
+		"Speed": 71
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "피죤투"
+	},
+	"initial_move": [
+		"몸통박치기"
+	],
+	"learn_move": {
+		"3": "모래뿌리기",
+		"6": "바람일으키기",
+		"10": "전광석화",
+		"12": "제비반환",
+		"15": "깃털댄스",
+		"18": "고속이동",
+		"20": "폭풍",
+		"24": "에어슬래시",
+		"27": "브레이브버드"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 2
+	},
+	"Base_EXP": 113,
+	"catch_rate": 120,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

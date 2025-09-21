@@ -1,0 +1,52 @@
+{
+	"id": 49,
+	"name": "아쿠스타",
+	"category": "수수께끼 포켓몬",
+	"description": "기하학적인 몸 때문에 그 지역에서는 우주생물이 아니냐며 의심하는 중이다.",
+	"type": [
+		"물",
+		"에스퍼"
+	],
+	"ability": "발광(선두에 있을 경우 야생 포켓몬 출현율이 2배가 된다.)",
+	"height": 1.1,
+	"weight": 80,
+	"base_stat": {
+		"HP": 60,
+		"Attack": 75,
+		"Defense": 85,
+		"Special Attack": 100,
+		"Special Defense": 85,
+		"Speed": 115
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"물대포"
+	],
+	"learn_move": {
+		"3": "물대포",
+		"6": "이상한빛",
+		"9": "고속스핀",
+		"12": "환상빔",
+		"15": "파도타기",
+		"18": "작아지기",
+		"21": "파워젬",
+		"24": "사이코키네시스",
+		"27": "하이드로펌프"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 2
+	},
+	"Base_EXP": 207,
+	"catch_rate": 60,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

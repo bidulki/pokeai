@@ -1,0 +1,51 @@
+{
+	"id": 37,
+	"name": "질뻐기",
+	"category": "오물 포켓몬",
+	"description": "평소에는 지면에 섞여있어서 알 수 없다. 몸에 닿으면 맹독에 걸린다.",
+	"type": [
+		"독"
+	],
+	"ability": "악취(상대에게 공격을 할 때 10%의 확률로 풀죽음 효과가 난다.)",
+	"height": 1.2,
+	"weight": 30,
+	"base_stat": {
+		"HP": 105,
+		"Attack": 105,
+		"Defense": 75,
+		"Special Attack": 65,
+		"Special Defense": 100,
+		"Speed": 50
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"막치기",
+		"독가스"
+	],
+	"learn_move": {
+		"3": "단단해지기",
+		"6": "진흙뿌리기",
+		"9": "오물공격",
+		"12": "머드샷",
+		"15": "작아지기",
+		"18": "오물폭탄",
+		"21": "오물웨이브",
+		"24": "더스트슈트",
+		"27": "녹기"
+	},
+	"EV": {
+		"HP": 1,
+		"Attack": 1,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 157,
+	"catch_rate": 75,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

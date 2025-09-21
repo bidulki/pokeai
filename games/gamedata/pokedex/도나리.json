@@ -1,0 +1,51 @@
+{
+	"id": 19,
+	"name": "도나리",
+	"category": "독나방 포켓몬",
+	"description": "어두운 밤에도 눈이 레이더 역할을 해서 활동할 수 있다. 눈에서 빔을 발사한다.",
+	"type": [
+		"벌레",
+		"독"
+	],
+	"ability": "인분(상대에게 받는 공격의 부가효과가 발동하지 않는다.)",
+	"height": 1.5,
+	"weight": 12.5,
+	"base_stat": {
+		"HP": 70,
+		"Attack": 65,
+		"Defense": 60,
+		"Special Attack": 90,
+		"Special Defense": 75,
+		"Speed": 90
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기"
+	],
+	"learn_move": {
+		"3": "초음파",
+		"6": "염동력",
+		"9": "독가루",
+		"12": "환상빔",
+		"15": "에어슬래시",
+		"18": "독엄니",
+		"20": "벌레의야단법석",
+		"24": "사이코키네시스",
+		"27": "나비춤"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 1,
+		"Special Defense": 0,
+		"Speed": 1
+	},
+	"Base_EXP": 138,
+	"catch_rate": 75,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

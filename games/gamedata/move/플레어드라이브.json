@@ -1,0 +1,9 @@
+{
+	"name": "플레어드라이브",
+	"type": "불꽃",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다."
+}

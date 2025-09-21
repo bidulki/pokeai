@@ -1,0 +1,53 @@
+{
+	"id": 16,
+	"name": "피카츄",
+	"category": "쥐 포켓몬",
+	"description": "뺨의 양쪽에 작은 전기 주머니가 있다. 위기 상황일 때 방전한다.",
+	"type": [
+		"전기"
+	],
+	"ability": "정전기(접촉한 상대를 30% 확률로 마비시킨다.)",
+	"height": 0.4,
+	"weight": 6.0,
+	"base_stat": {
+		"HP": 35,
+		"Attack": 55,
+		"Defense": 40,
+		"Special Attack": 50,
+		"Special Defense": 50,
+		"Speed": 90
+	},
+	"evolution": {
+		"type": "stone",
+		"stone": "천둥의돌",
+		"next": "라이츄"
+	},
+	"initial_move": [
+		"전기쇼크",
+		"울음소리"
+	],
+	"learn_move": {
+		"3": "꼬리흔들기",
+		"6": "전광석화",
+		"9": "볼부비부비",
+		"12": "그림자분신",
+		"15": "고속이동",
+		"18": "아이언테일",
+		"21": "10만볼트",
+		"24": "번개",
+		"27": "볼트태클"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 2
+	},
+	"Base_EXP": 82,
+	"catch_rate": 190,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

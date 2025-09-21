@@ -1,0 +1,9 @@
+{
+	"name": "깃털댄스",
+	"type": "비행",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "깃털을 흩뿌려 상대의 몸에 휘감는다. 상대의 공격을 크게 떨어뜨린다."
+}

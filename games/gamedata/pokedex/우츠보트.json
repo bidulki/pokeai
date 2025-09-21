@@ -1,0 +1,51 @@
+{
+	"id": 30,
+	"name": "우츠보트",
+	"category": "파리잡이 포켓몬",
+	"description": "꿀 같은 향기에 꾀어 입 안으로 들어가면 끝장. 용해액에 녹아버린다.",
+	"type": [
+		"풀",
+		"독"
+	],
+	"ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+	"height": 1.7,
+	"weight": 15.5,
+	"base_stat": {
+		"HP": 80,
+		"Attack": 105,
+		"Defense": 65,
+		"Special Attack": 100,
+		"Special Defense": 70,
+		"Speed": 70
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"덩굴채찍"
+	],
+	"learn_move": {
+		"3": "성장",
+		"6": "수면가루",
+		"10": "독가루",
+		"12": "잎날가르기",
+		"15": "독찌르기",
+		"18": "파워휩",
+		"20": "달콤한향기",
+		"24": "리프스톰",
+		"27": "리프블레이드"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 3,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 191,
+	"catch_rate": 45,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

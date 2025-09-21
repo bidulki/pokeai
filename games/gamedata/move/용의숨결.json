@@ -1,0 +1,9 @@
+{
+	"name": "용의숨결",
+	"type": "드래곤",
+	"category": "특수",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "굉장한 숨결을 상대에게 내뿜어 공격한다. 마비 상태로 만들 때가 있다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "그림자분신",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다."
+}

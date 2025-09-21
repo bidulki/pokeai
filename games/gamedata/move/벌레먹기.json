@@ -1,0 +1,9 @@
+{
+	"name": "벌레먹기",
+	"type": "벌레",
+	"category": "물리",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다."
+}

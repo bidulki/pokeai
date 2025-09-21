@@ -1,0 +1,14 @@
+{
+    "name": "이상해풀_0",
+    "map": "상록숲",
+    "pokedex": "이상해풀",
+    "level": 14,
+    "master": "민화",
+    "status": "정상",
+    "moves": ["몸통박치기", "성장", "잎날가르기", "독가루"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

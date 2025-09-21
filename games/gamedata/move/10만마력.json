@@ -1,0 +1,9 @@
+{
+	"name": "10만마력",
+	"type": "땅",
+	"category": "물리",
+	"power": 95,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "온몸을 써서 상대를 맹렬히 공격한다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "벌레의야단법석",
+	"type": "벌레",
+	"category": "특수",
+	"power": 90,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날개의 진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+}

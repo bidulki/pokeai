@@ -1,0 +1,14 @@
+{
+    "name": "날쌩마_0",
+    "map": "상록숲",
+    "pokedex": "날쌩마",
+    "level": 19,
+    "master": "강연",
+    "status": "정상",
+    "moves": ["스마트혼", "짓밟기", "니트로차지", "전광석화"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

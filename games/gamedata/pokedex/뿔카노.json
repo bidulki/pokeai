@@ -1,0 +1,54 @@
+{
+	"id": 46,
+	"name": "뿔카노",
+	"category": "뿔 포켓몬",
+	"description": "머리는 나쁘지만 힘이 세서 고층 빌딩도 몸통박치기로 산산조각 낸다.",
+	"type": [
+		"땅",
+		"바위"
+	],
+	"ability": "피뢰침(더블 배틀 시 전기 타입의 기술이 자신에게로 몰린다.)",
+	"height": 1,
+	"weight": 115,
+	"base_stat": {
+		"HP": 80,
+		"Attack": 85,
+		"Defense": 95,
+		"Special Attack": 30,
+		"Special Defense": 30,
+		"Speed": 25
+	},
+	"evolution": {
+		"type": "level",
+		"level": 15,
+		"next": "코뿌리"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"꼬리흔들기"
+	],
+	"learn_move": {
+		"3": "땅고르기",
+		"6": "뿔찌르기",
+		"9": "짓밟기",
+		"12": "드릴라이너",
+		"15": "암해머",
+		"18": "돌진",
+		"21": "지진",
+		"24": "스톤에지",
+		"27": "메가혼"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 1,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 135,
+	"catch_rate": 120,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

@@ -1,0 +1,53 @@
+{
+	"id": 36,
+	"name": "질퍽이",
+	"category": "오물 포켓몬",
+	"description": "달로부터 X선을 쬔 진흙이 질퍽이로 변화했다. 더러운 것을 즐겨 먹는다.",
+	"type": [
+		"독"
+	],
+	"ability": "악취(상대에게 공격을 할 때 10%의 확률로 풀죽음 효과가 난다.)",
+	"height": 0.9,
+	"weight": 30,
+	"base_stat": {
+		"HP": 80,
+		"Attack": 80,
+		"Defense": 50,
+		"Special Attack": 40,
+		"Special Defense": 50,
+		"Speed": 25
+	},
+	"evolution": {
+		"type": "level",
+		"level": 15,
+		"next": "질뻐기"
+	},
+	"initial_move": [
+		"막치기",
+		"독가스"
+	],
+	"learn_move": {
+		"3": "단단해지기",
+		"6": "진흙뿌리기",
+		"9": "오물공격",
+		"12": "머드샷",
+		"15": "작아지기",
+		"18": "오물폭탄",
+		"21": "오물웨이브",
+		"24": "더스트슈트",
+		"27": "녹기"
+	},
+	"EV": {
+		"HP": 1,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 90,
+	"catch_rate": 190,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

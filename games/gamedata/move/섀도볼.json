@@ -1,0 +1,9 @@
+{
+	"name": "섀도볼",
+	"type": "고스트",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "까만 그림자의 덩어리를 내던져서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+}

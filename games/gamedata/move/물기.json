@@ -1,0 +1,9 @@
+{
+	"name": "물기",
+	"type": "악",
+	"category": "물리",
+	"power": 60,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀이 죽게 할 때가 있다."
+}

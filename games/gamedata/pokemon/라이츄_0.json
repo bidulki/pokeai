@@ -1,0 +1,14 @@
+{
+    "name": "라이츄_0",
+    "map": "상록숲",
+    "pokedex": "라이츄",
+    "level": 13,
+    "master": "마티스",
+    "status": "정상",
+    "moves": ["볼부비부비", "전기쇼크", "전광석화", "그림자분신"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

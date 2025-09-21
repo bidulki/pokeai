@@ -1,0 +1,52 @@
+{
+	"id": 12,
+	"name": "버터플",
+	"category": "나비 포켓몬",
+	"description": "물을 튕겨내는 가루가 날개를 보호하고 있다. 비가 오는 날에도 하늘을 날 수 있다.",
+	"type": [
+		"벌레",
+		"비행"
+	],
+	"ability": "복안(기술의 명중률이 1.3배가 된다.)",
+	"height": 1.1,
+	"weight": 32,
+	"base_stat": {
+		"HP": 60,
+		"Attack": 45,
+		"Defense": 50,
+		"Special Attack": 90,
+		"Special Defense": 80,
+		"Speed": 70
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"실뿜기"
+	],
+	"learn_move": {
+		"5": "벌레먹기",
+		"7": "단단해지기",
+		"10": "바람일으키기",
+		"12": "저리가루",
+		"15": "환상빔",
+		"18": "수면가루",
+		"20": "에어슬래시",
+		"24": "벌레의야단법석",
+		"27": "나비춤"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 2,
+		"Special Defense": 1,
+		"Speed": 0
+	},
+	"Base_EXP": 160,
+	"catch_rate": 45,
+	"grow_rate": "fast",
+	"catched": false,
+	"meet": false
+}

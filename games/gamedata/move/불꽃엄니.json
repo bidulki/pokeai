@@ -1,0 +1,9 @@
+{
+	"name": "불꽃엄니",
+	"type": "불꽃",
+	"category": "물리",
+	"power": 65,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "불꽃을 두른 이빨로 문다. 상대를 풀죽게 하거나 화상 상태로 만들 때가 있다."
+}

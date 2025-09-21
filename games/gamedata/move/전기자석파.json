@@ -1,0 +1,9 @@
+{
+	"name": "전기자석파",
+	"type": "전기",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "90%",
+	"never_miss": false,
+	"description": "약한 전격을 날려서 상대를 마비 상태로 만든다."
+}

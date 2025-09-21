@@ -1,0 +1,9 @@
+{
+	"name": "바람일으키기",
+	"type": "비행",
+	"category": "특수",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "날개로 일으킨 격한 바람을 상대에게 부딪혀서 공격한다."
+}

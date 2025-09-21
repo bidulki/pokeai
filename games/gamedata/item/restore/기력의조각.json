@@ -1,0 +1,7 @@
+{
+    "name": "기력의조각",
+    "info": "기절해 버린 포켓몬 1마리를 건강하게 하고 HP를 절반까지 회복한다.",
+    "price": 1500,
+    "restore": "half",
+    "recover": ["fainting"]
+}

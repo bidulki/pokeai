@@ -1,0 +1,52 @@
+{
+	"id": 21,
+	"name": "윈디",
+	"category": "전설 포켓몬",
+	"description": "중국에 전해지는 전설의 포켓몬. 굉장한 스피드로 달린다고 한다.",
+	"type": [
+		"불꽃",
+		"바위"
+	],
+	"ability": "타오르는불꽃(불꽃 타입 기술을 받으면 무효화하고 자신이 사용하는 불꽃 기술의 위력이 1.5배가 된다.)",
+	"height": 1.9,
+	"weight": 155,
+	"base_stat": {
+		"HP": 90,
+		"Attack": 110,
+		"Defense": 80,
+		"Special Attack": 100,
+		"Special Defense": 80,
+		"Speed": 95
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"불꽃세례",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "멀리짖음",
+		"6": "물기",
+		"9": "고속이동",
+		"12": "불꽃엄니",
+		"15": "깨물어부수기",
+		"18": "화염방사",
+		"21": "치근거리기",
+		"24": "플레어드라이브",
+		"27": "신속"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 2,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 213,
+	"catch_rate": 75,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

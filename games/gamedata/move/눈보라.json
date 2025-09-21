@@ -1,0 +1,9 @@
+{
+	"name": "눈보라",
+	"type": "얼음",
+	"category": "특수",
+	"power": 110,
+	"accuracy": "70%",
+	"never_miss": false,
+	"description": "세찬 눈보라를 부딪쳐서 공격한다. 상대를 얼음 상태로 만들기도 한다."
+}

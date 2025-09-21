@@ -1,0 +1,9 @@
+{
+	"name": "고속이동",
+	"type": "에스퍼",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다."
+}

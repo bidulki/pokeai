@@ -1,0 +1,9 @@
+{
+	"name": "드릴라이너",
+	"type": "땅",
+	"category": "물리",
+	"power": 80,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "드릴처럼 몸을 회전시켜서 상대에게 몸통박치기한다. 급소에 맞기 쉽다."
+}

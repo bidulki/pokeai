@@ -1,0 +1,14 @@
+{
+    "name": "우츠보트_0",
+    "map": "상록숲",
+    "pokedex": "우츠보트",
+    "level": 16,
+    "master": "민화",
+    "status": "정상",
+    "moves": ["잎날가르기", "독찌르기", "수면가루", "성장"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

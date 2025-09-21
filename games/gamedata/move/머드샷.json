@@ -1,0 +1,9 @@
+{
+	"name": "머드샷",
+	"type": "땅",
+	"category": "특수",
+	"power": 55,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다"
+}

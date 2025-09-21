@@ -1,0 +1,53 @@
+{
+	"id": 28,
+	"name": "모다피",
+	"category": "꽃 포켓몬",
+	"description": "사람 얼굴 같은 봉오리 때문에 전설의 꽃 만드라고라의 일종이 아닐까 하는 소문이 돌고 있다.",
+	"type": [
+		"풀",
+		"독"
+	],
+	"ability": "엽록소(쾌청시 스피드가 2배가 된다.)",
+	"height": 0.7,
+	"weight": 4,
+	"base_stat": {
+		"HP": 50,
+		"Attack": 75,
+		"Defense": 35,
+		"Special Attack": 70,
+		"Special Defense": 30,
+		"Speed": 40
+	},
+	"evolution": {
+		"type": "level",
+		"level": 10,
+		"next": "우츠동"
+	},
+	"initial_move": [
+		"덩굴채찍"
+	],
+	"learn_move": {
+		"3": "성장",
+		"6": "수면가루",
+		"10": "독가루",
+		"12": "잎날가르기",
+		"15": "독찌르기",
+		"18": "파워휩",
+		"20": "달콤한향기",
+		"24": "리프스톰",
+		"27": "리프블레이드"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 1,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 84,
+	"catch_rate": 255,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

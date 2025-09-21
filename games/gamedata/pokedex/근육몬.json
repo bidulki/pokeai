@@ -1,0 +1,53 @@
+{
+	"id": 26,
+	"name": "근육몬",
+	"category": "괴력 포켓몬",
+	"description": "지칠 줄 모르는 강인한 육체를 가졌다. 무거운 짐 운반하기 등의 일을 돕는다.",
+	"type": [
+		"격투"
+	],
+	"ability": "근성(상태이상일 때 공격이 1.5배로 올라간다.)",
+	"height": 1.5,
+	"weight": 70.5,
+	"base_stat": {
+		"HP": 80,
+		"Attack": 100,
+		"Defense": 70,
+		"Special Attack": 50,
+		"Special Defense": 60,
+		"Speed": 45
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "괴력몬"
+	},
+	"initial_move": [
+		"태권당수",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "기충전",
+		"6": "겁나는얼굴",
+		"10": "로킥",
+		"12": "불꽃펀치",
+		"15": "냉동펀치",
+		"18": "괴력",
+		"20": "벌크업",
+		"24": "폭발펀치",
+		"27": "크로스촙"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 2,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 146,
+	"catch_rate": 90,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

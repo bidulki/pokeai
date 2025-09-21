@@ -1,0 +1,9 @@
+{
+	"name": "고속스핀",
+	"type": "노말",
+	"category": "물리",
+	"power": 20,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기 등의 효과를 날려 버린다. 자신의 스피드도 올라간다."
+}

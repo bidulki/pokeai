@@ -1,0 +1,9 @@
+{
+	"name": "베어가르기",
+	"type": "노말",
+	"category": "물리",
+	"power": 70,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "발톱이나 낫 등으로 상대를 베어 갈라서 공격한다. 급소에 맞을 확률이 높다."
+}

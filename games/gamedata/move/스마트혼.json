@@ -1,0 +1,9 @@
+{
+	"name": "스마트혼",
+	"type": "강철",
+	"category": "물리",
+	"power": 70,
+	"accuracy": "100%",
+	"never_miss": true,
+	"description": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다."
+}

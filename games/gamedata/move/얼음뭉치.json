@@ -1,0 +1,9 @@
+{
+	"name": "얼음뭉치",
+	"type": "얼음",
+	"category": "물리",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "얼음 덩어리를 순식간에 만들어 빠르게 쏜다. 반드시 선제 공격을 할 수 있다."
+}

@@ -1,0 +1,14 @@
+{
+    "name": "도나리_0",
+    "map": "상록숲",
+    "pokedex": "도나리",
+    "level": 20,
+    "master": "독수",
+    "status": "정상",
+    "moves": ["독엄니", "에어슬래시", "환상빔", "초음파"],
+    "hp": null,
+    "exp": 0,
+    "Ivs": null,
+    "Evs": null,
+    "chat_history": []
+}

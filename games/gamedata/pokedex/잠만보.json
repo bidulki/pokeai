@@ -1,0 +1,51 @@
+{
+	"id": 51,
+	"name": "잠만보",
+	"category": "졸음 포켓몬",
+	"description": "하루에 먹을 것을 400kg먹지 않으면 성에 차지 않는다.다 먹으면 잠이 들어 버린다.",
+	"type": [
+		"노말"
+	],
+	"ability": "면역(독, 맹독 상태가 되지 않는다.)",
+	"height": 2.1,
+	"weight": 460,
+	"base_stat": {
+		"HP": 160,
+		"Attack": 110,
+		"Defense": 65,
+		"Special Attack": 65,
+		"Special Defense": 110,
+		"Speed": 30
+	},
+	"evolution": {
+		"type": "impossible"
+	},
+	"initial_move": [
+		"박치기",
+		"웅크리기"
+	],
+	"learn_move": {
+		"3": "싫은소리",
+		"6": "핥기",
+		"9": "물기",
+		"12": "깨물어부수기",
+		"15": "누르기",
+		"18": "망각술",
+		"21": "10만마력",
+		"24": "암해머",
+		"27": "이판사판태클"
+	},
+	"EV": {
+		"HP": 2,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 154,
+	"catch_rate": 25,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

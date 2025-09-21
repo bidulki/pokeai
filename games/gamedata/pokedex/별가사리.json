@@ -1,0 +1,53 @@
+{
+	"id": 48,
+	"name": "별가사리",
+	"category": "별 포켓몬",
+	"description": "바닷가에 많이 나타나고 밤이 되면 한가운데가 빨갛게 깜빡거린다.",
+	"type": [
+		"물"
+	],
+	"ability": "발광(선두에 있을 경우 야생 포켓몬 출현율이 2배가 된다.)",
+	"height": 0.8,
+	"weight": 34.5,
+	"base_stat": {
+		"HP": 30,
+		"Attack": 45,
+		"Defense": 55,
+		"Special Attack": 70,
+		"Special Defense": 55,
+		"Speed": 85
+	},
+	"evolution": {
+		"type": "stone",
+		"stone": "물의돌",
+		"next": "아쿠스타"
+	},
+	"initial_move": [
+		"몸통박치기",
+		"물대포"
+	],
+	"learn_move": {
+		"3": "물대포",
+		"6": "이상한빛",
+		"9": "고속스핀",
+		"12": "환상빔",
+		"15": "파도타기",
+		"18": "작아지기",
+		"21": "파워젬",
+		"24": "사이코키네시스",
+		"27": "하이드로펌프"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 1
+	},
+	"Base_EXP": 106,
+	"catch_rate": 225,
+	"grow_rate": "slow",
+	"catched": false,
+	"meet": false
+}

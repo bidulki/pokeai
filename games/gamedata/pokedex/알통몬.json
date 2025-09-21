@@ -1,0 +1,53 @@
+{
+	"id": 25,
+	"name": "알통몬",
+	"category": "괴력 포켓몬",
+	"description": "몸집은 어린아이만 하지만 온몸이 근육으로 되어 있어서 어른 100명은 날려 버릴 수 있다.",
+	"type": [
+		"격투"
+	],
+	"ability": "근성(상태이상일 때 공격이 1.5배로 올라간다.)",
+	"height": 0.8,
+	"weight": 19.5,
+	"base_stat": {
+		"HP": 70,
+		"Attack": 80,
+		"Defense": 50,
+		"Special Attack": 35,
+		"Special Defense": 35,
+		"Speed": 35
+	},
+	"evolution": {
+		"type": "level",
+		"level": 10,
+		"next": "근육몬"
+	},
+	"initial_move": [
+		"태권당수",
+		"째려보기"
+	],
+	"learn_move": {
+		"3": "기충전",
+		"6": "겁나는얼굴",
+		"10": "로킥",
+		"12": "불꽃펀치",
+		"15": "냉동펀치",
+		"18": "괴력",
+		"20": "벌크업",
+		"24": "폭발펀치",
+		"27": "크로스촙"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 1,
+		"Defense": 0,
+		"Special Attack": 0,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 75,
+	"catch_rate": 180,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

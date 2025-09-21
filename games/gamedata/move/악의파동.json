@@ -1,0 +1,9 @@
+{
+	"name": "악의파동",
+	"type": "악",
+	"category": "특수",
+	"power": 80,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "막치기",
+	"type": "노말",
+	"category": "물리",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "긴 꼬리나 손 등을 사용하여 상대를 때려서 공격한다."
+}

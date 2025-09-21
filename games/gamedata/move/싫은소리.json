@@ -1,0 +1,9 @@
+{
+	"name": "싫은소리",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "85%",
+	"never_miss": false,
+	"description": "그만 귀를 막아버리고 싶은 싫은 소리를 내어 상대의 방어를 크게 떨어뜨린다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "드래곤다이브",
+	"type": "드래곤",
+	"category": "물리",
+	"power": 100,
+	"accuracy": "70%",
+	"never_miss": false,
+	"description": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다."
+}

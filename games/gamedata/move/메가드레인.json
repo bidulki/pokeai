@@ -1,0 +1,9 @@
+{
+	"name": "메가드레인",
+	"type": "풀",
+	"category": "특수",
+	"power": 40,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다."
+}

@@ -1,0 +1,52 @@
+{
+	"id": 23,
+	"name": "윤겔라",
+	"category": "초능력 포켓몬",
+	"description": "어느 날 아침. 초능력 소년이 침대에서 일어나 보니 윤겔라로 변해 있었다.",
+	"type": [
+		"에스퍼"
+	],
+	"ability": "싱크로(자신이 상태이상에 걸리면 상대도 같은 상태가 된다.)",
+	"height": 1.3,
+	"weight": 56.5,
+	"base_stat": {
+		"HP": 40,
+		"Attack": 35,
+		"Defense": 30,
+		"Special Attack": 120,
+		"Special Defense": 70,
+		"Speed": 105
+	},
+	"evolution": {
+		"type": "level",
+		"level": 20,
+		"next": "후딘"
+	},
+	"initial_move": [
+		"염동력"
+	],
+	"learn_move": {
+		"3": "숟가락휘기",
+		"6": "최면술",
+		"10": "환상빔",
+		"12": "리플렉터",
+		"15": "그림자분신",
+		"18": "사이코쇼크",
+		"20": "HP회복",
+		"24": "사이코키네시스",
+		"27": "명상"
+	},
+	"EV": {
+		"HP": 0,
+		"Attack": 0,
+		"Defense": 0,
+		"Special Attack": 2,
+		"Special Defense": 0,
+		"Speed": 0
+	},
+	"Base_EXP": 145,
+	"catch_rate": 100,
+	"grow_rate": "medium",
+	"catched": false,
+	"meet": false
+}

@@ -1,0 +1,9 @@
+{
+	"name": "에어슬래시",
+	"type": "비행",
+	"category": "특수",
+	"power": 75,
+	"accuracy": "95%",
+	"never_miss": false,
+	"description": "하늘까지 베어 가르는 공기의 칼날로 공격한다. 상대를 풀죽게 만들 때가 있다."
+}

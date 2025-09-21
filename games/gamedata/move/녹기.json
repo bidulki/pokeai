@@ -1,0 +1,9 @@
+{
+	"name": "녹기",
+	"type": "독",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "세포의 변화로 액체가 되어 자신의 방어를 크게 올린다."
+}

@@ -1,0 +1,9 @@
+{
+	"name": "작아지기",
+	"type": "노말",
+	"category": "변화",
+	"power": 0,
+	"accuracy": "—",
+	"never_miss": true,
+	"description": "몸을 축소하여 작게 보임으로써 회피율을 올린다."
+}

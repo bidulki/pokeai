@@ -1,0 +1,9 @@
+{
+	"name": "냉동펀치",
+	"type": "얼음",
+	"category": "물리",
+	"power": 75,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태가 되는 경우가 있다."
+}

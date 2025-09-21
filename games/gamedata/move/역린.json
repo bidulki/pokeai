@@ -1,0 +1,9 @@
+{
+	"name": "역린",
+	"type": "드래곤",
+	"category": "물리",
+	"power": 120,
+	"accuracy": "100%",
+	"never_miss": false,
+	"description": "2-3턴 동안 마구 난동 부려서 공격한다. 난동 부린 뒤에는 혼란에 빠진다."
+}
